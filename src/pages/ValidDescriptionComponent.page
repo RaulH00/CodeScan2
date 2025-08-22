@@ -1,0 +1,7 @@
+<apex:page>
+    <apex:form>
+        <apex:inputText value="{!account.Name}" label="Account Name">
+            <apex:facet name="description">Please enter the full account name.</apex:facet>
+        </apex:inputText>
+    </apex:form>
+</apex:page>

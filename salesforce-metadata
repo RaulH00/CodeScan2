@@ -1,0 +1,27 @@
+from simple_salesforce import Salesforce, SalesforceLogin
+from simple_salesforce.exceptions import SalesforceAuthenticationFailed
+
+# Salesforce credentials
+username = 'your_username'
+password = 'your_password'
+security_token = 'your_security_token'
+sandbox = False  # Set to True if you're working in a sandbox environment
+
+# Connect to Salesforce
+try:
+    sf = Salesforce(username=username, password=password, security_token=security_token, sandbox=sandbox)
+except SalesforceAuthenticationFailed as e:
+    print("Authentication failed:", e)
+    exit()
+
+# Specify the metadata type you want to retrieve (e.g., 'CustomObject')
+metadata_type = 'CustomObject'
+
+# Query for metadata components
+metadata_query = f"SELECT Id, DeveloperName FROM {metadata_type}"
+metadata_components = sf.query_all(metadata_query)['records']
+
+# Print the retrieved metadata components
+print(f"Metadata components of type '{metadata_type}':")
+for component in metadata_components:
+    print(f"ID: {component['Id']}, Developer Name: {component['DeveloperName']}")

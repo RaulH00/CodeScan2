@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+	........
+      <fullName>Price__c</fullName>       //Bad: This custom field does not have a description.
+      <externalId>false</externalId>
+      <label>Price</label>
+      <type>Currency</type>
+  ..........
+</CustomField>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+	........
+      <fullName>Price__c</fullName>
+      <description>This is a description of price</description>   //Good: A description is recommended.
+      <externalId>false</externalId>
+      <label>Price</label>
+      <type>Currency</type>
+  ..........
+</CustomField>
+     

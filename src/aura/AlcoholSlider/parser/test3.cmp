@@ -1,0 +1,33 @@
+<div style="{!IF(TLN_XXX_YYY__c.TLN_ABC_DEF__c == "First XXX","position: fixed;
+text-align: center;
+bottom: 0;
+width: 100%;
+height : 250px;
+margin-left: 8px;","position: fixed;
+text-align: center;
+bottom: 0;
+width: 100%;
+height : 245px;
+margin-left: 8px;")}"
+class="font-face">
+	<table style="width:95%;" cellpadding= "4px">
+		<tbody style="font-size:10px;">
+			<tr>
+				<td style="text-align: left;">How? :</td>
+				<td style="text-align: justify;">{!TLN_XXX_YYY__c.TLN_Purpose_HHH__c}</td>
+			</tr>
+			<tr style = "{!IF(TLN_XXX_YYY__c.TLN_ABC_DEF__c != "First XXX","","display:none")}">
+				<td style="text-align: left;">Volume? :</td>
+				<td style="text-align: justify;">{!TLN_XXX_YYY__c.TLN_Volume_CCC__c}</td>
+			</tr>
+			<tr>
+				<td style="text-align: left;">AAA info: </td>
+				<td style="text-align: justify;">{!TLN_XXX_YYY__c.TLN_AAA_Info__c}</td>
+			</tr>
+			<tr>
+				<td style="text-align: left;">Comments: </td>
+				<td style="text-align: justify;">{!TLN_XXX_YYY__c.TLN_Comments__c}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

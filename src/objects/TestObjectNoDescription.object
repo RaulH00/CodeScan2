@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>FieldWithoutDescription__c</fullName>
+        <label>Field Without Description</label>
+        <type>Text</type>
+    </fields>
+    <label>Test Object No Description</label>
+    <pluralLabel>Test Objects No Description</pluralLabel>
+    <nameField>
+        <label>Test Object Name</label>
+        <type>Text</type>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

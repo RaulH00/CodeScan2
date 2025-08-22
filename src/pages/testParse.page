@@ -1,0 +1,13 @@
+<apex:page >
+<!--[if lt x]>xxx-->
+
+<style>
+	  .xyz {
+	    color: #{!$CurrentPage.parameters.userInput}; //Bad: This is vulnerable to XSS.
+	  }
+</style>
+<script>
+
+
+hello123
+</apex:page>

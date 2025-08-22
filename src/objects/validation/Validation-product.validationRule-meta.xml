@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BypassRule</fullName>
+    <active>true</active>
+    <description>This is a test case for CodeScan.</description>
+    <errorConditionFormula>AND( LEN(Name) &gt; 4)</errorConditionFormula>
+    <errorMessage>An error has occurred</errorMessage>
+</ValidationRule>

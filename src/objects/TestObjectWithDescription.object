@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>DescriptiveField__c</fullName>
+        <label>Descriptive Field</label>
+        <type>Text</type>
+        <description>This field contains descriptive information.</description>
+    </fields>
+    <label>Test Object With Description</label>
+    <pluralLabel>Test Objects With Description</pluralLabel>
+    <nameField>
+        <label>Test Object Name</label>
+        <type>Text</type>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

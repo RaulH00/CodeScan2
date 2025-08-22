@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>LLC_BI__Reported_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The system populates this optional field to indicate the date the creditor last reported the debt to the credit bureau.</description>
+        <externalId>false</externalId>
+        <label>Reported Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LLC_BI__Source_Debt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>If this is a cloned debt, this field is populated with its source.</description>
+        <externalId>false</externalId>
+        <label>Source Debt</label>
+        <referenceTo>LLC_BI__Debt__c</referenceTo>
+        <relationshipLabel>Cloned Debts</relationshipLabel>
+        <relationshipName>Cloned_Debts</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <validationRules>
+        <fullName>BypassRule2</fullName>
+        <active>true</active>
+        <description>This is a test case for rule</description>
+        <errorConditionFormula> llc_bi__product_type__c &gt; 4, $User.No_Validation__c = false )</errorConditionFormula>
+        <errorMessage>There was an error</errorMessage>
+    </validationRules>
+</CustomObject>

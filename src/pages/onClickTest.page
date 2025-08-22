@@ -1,0 +1,5 @@
+<apex:page >
+    
+    <input type="button" value="Flawed HTML Button" onclick="alert('bad')"/>
+    
+</apex:page>

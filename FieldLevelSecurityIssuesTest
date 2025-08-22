@@ -1,0 +1,957 @@
+public class FieldSecurityIssuesTest {
+//Ex-1: Inserting a single Record
+    public void testMethod1_user_Insert(){
+        Account acc = new Account();
+            acc.Name = 'SingleAccount';
+            acc.Phone = '1234567890';
+            insert as user acc;
+    }
+    
+    //Ex-2: Insert a record with in-line statement
+    public void testMethod2_user_Insert(){
+        insert as user new Account(Name = 'ApexHours');
+    }
+
+    //Ex-3: Inseriting Multiple Records
+    public void testMethod3_user_Insert(){
+    List<Account> accList = new List<Account>();
+    Account acc1 = new Account();
+            acc1.Name = 'Account 1';
+            acc1.Phone = '1234567890';
+            accList.add(acc1);
+
+            Account acc2 = new Account();
+            acc2.Name = 'Account 2';
+            acc2.Phone = '9876543210';
+            accList.add(acc2);
+
+            insert as user accList;
+    }
+
+    //Ex-4: Insert Records with Relationships
+    public void testMethod4_user_Insert(){
+    Account acc = new Account();
+        acc.Name = 'Sample Account';
+        acc.Industry = 'Technology';
+        
+        Contact con = new Contact();
+        con.FirstName = 'John';
+        con.LastName = 'Doe';
+        con.Email = 'johndoe@example.com';
+        con.AccountId = acc.Id; // Associate the Contact with the Account
+        
+        insert as user acc;
+        insert as user con;
+
+    }
+    
+    //Ex-5: Insert with try-catch Blocks
+    public void testMethod5_user_Insert(){
+    Account acc = new Account();
+        acc.Name = 'Try-Catch Account';
+        acc.Phone = '1234567890';
+
+        try {
+            insert as user acc;
+        } catch (DmlException e) {
+            // Handle exception
+            System.debug('An error occurred: ' + e.getMessage());
+        }
+    }
+
+    //Ex-6: Insert BULK records in Loop
+    public void testMethod6_user_Insert(){
+            List<Account> accounts = new List<Account>();
+        for (Integer i = 0; i < 1000; i++) {
+            Account acc = new Account();
+            acc.Name = 'Account ' + i;
+            acc.Industry = 'Technology';
+            accounts.add(acc);
+        }
+
+        insert as user accounts;
+
+    }
+
+    //Ex-7: Insert with DatabaseStatement
+    public void testMethod7_user_Insert(){
+        Database.insert(new Account(Name='DBInsert'),false,AccessLevel.USER_MODE);
+    }
+    
+    //Ex-8: Insert with relationships in Bulk
+    public void testMethod8_user_Insert(){
+    // Creating an Account
+        Account acc = new Account();
+        acc.Name = 'Test Account';
+        insert as user acc;
+
+        // Creating a Contact related to the Account
+        Contact con = new Contact();
+        con.FirstName = 'John';
+        con.LastName = 'Doe';
+        con.AccountId = acc.Id; // Set the relationship to the Account
+        insert as user con;
+
+       
+        // Creating multiple Opportunity records related to the Account
+        List<Opportunity> opportunities = new List<Opportunity>();
+        for (Integer i = 0; i < 5; i++) {
+            Opportunity opp = new Opportunity();
+            opp.Name = 'Test Opportunity ' + i;
+            opp.AccountId = acc.Id; // Set the relationship to the Account
+            opportunities.add(opp);
+        }
+        insert as user opportunities;
+    }
+
+    //Ex-9: Insert Bulk records with DataBase statement
+    public void testMethod9_user_Insert(){
+    List<Account> accountsToInsert = new List<Account>{
+            new Account(Name = 'Acme Corporation', Industry = 'Technology'),
+            new Account(Name = 'XYZ Inc', Industry = 'Finance')
+        };
+        Database.insert(accountsToInsert, true,AccessLevel.USER_MODE);
+    }
+    
+    //Ex-10 Insert Bulk records with DataBase Statement with Try-Catch statements
+    public void testMethod10_user_Insert(){
+    List<Contact> contactsToInsert = new List<Contact>{
+            new Contact(FirstName = 'John', LastName = 'Doe', Email = 'johndoe@example.com'),
+            new Contact(FirstName = 'Jane', LastName = 'Smith', Email = 'janesmith@example.com')
+        };
+        Database.SaveResult[] insertResults = Database.insert(contactsToInsert, false,AccessLevel.USER_MODE);
+        for (Database.SaveResult result : insertResults) {
+            if (result.isSuccess()) {
+                // Insert successful
+                System.debug('Contact inserted successfully.');
+            } else {
+                // Insert failed
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error message: ' + error.getMessage());
+                }
+            }
+        }
+    }
+    
+     //Ex-1: Inserting a single Record
+    public void testMethod1_system_Insert(){
+        Account acc = new Account();
+            acc.Name = 'SingleAccount';
+            acc.Phone = '1234567890';
+            insert as system acc;
+    }
+    
+    //Ex-2: Insert a record with in-line statement
+    public void testMethod2_system_Insert(){
+        insert as system new Account(Name = 'ApexHours');
+    }
+
+    //Ex-3: Inseriting Multiple Records
+    public void testMethod3_system_Insert(){
+    List<Account> accList = new List<Account>();
+    Account acc1 = new Account();
+            acc1.Name = 'Account 1';
+            acc1.Phone = '1234567890';
+            accList.add(acc1);
+
+            Account acc2 = new Account();
+            acc2.Name = 'Account 2';
+            acc2.Phone = '9876543210';
+            accList.add(acc2);
+
+            insert as system accList;
+    }
+
+    //Ex-4: Insert Records with Relationships
+    public void testMethod4_system_Insert(){
+    Account acc = new Account();
+        acc.Name = 'Sample Account';
+        acc.Industry = 'Technology';
+        
+        Contact con = new Contact();
+        con.FirstName = 'John';
+        con.LastName = 'Doe';
+        con.Email = 'johndoe@example.com';
+        con.AccountId = acc.Id; // Associate the Contact with the Account
+        
+        insert as system acc;
+        insert as system con;
+
+    }
+    
+    //Ex-5: Insert with try-catch Blocks
+    public void testMethod5_system_Insert(){
+    Account acc = new Account();
+        acc.Name = 'Try-Catch Account';
+        acc.Phone = '1234567890';
+
+        try {
+            insert as system acc;
+        } catch (DmlException e) {
+            // Handle exception
+            System.debug('An error occurred: ' + e.getMessage());
+        }
+    }
+
+    //Ex-6: Insert BULK records in Loop
+    public void testMethod6_system_Insert(){
+            List<Account> accounts = new List<Account>();
+        for (Integer i = 0; i < 1000; i++) {
+            Account acc = new Account();
+            acc.Name = 'Account ' + i;
+            acc.Industry = 'Technology';
+            accounts.add(acc);
+        }
+
+        insert as system accounts;
+
+    }
+
+    //Ex-7: Insert with DatabaseStatement
+    public void testMethod7_system_Insert(){
+        Database.insert(new Account(Name='DBInsert'),false,AccessLevel.SYSTEM_MODE);
+    }
+    
+    //Ex-8: Insert with relationships in Bulk
+    public void testMethod8_system_Insert(){
+    // Creating an Account
+        Account acc = new Account();
+        acc.Name = 'Test Account';
+        insert as system acc;
+
+        // Creating a Contact related to the Account
+        Contact con = new Contact();
+        con.FirstName = 'John';
+        con.LastName = 'Doe';
+        con.AccountId = acc.Id; // Set the relationship to the Account
+        insert as system con;
+
+       
+        // Creating multiple Opportunity records related to the Account
+        List<Opportunity> opportunities = new List<Opportunity>();
+        for (Integer i = 0; i < 5; i++) {
+            Opportunity opp = new Opportunity();
+            opp.Name = 'Test Opportunity ' + i;
+            opp.AccountId = acc.Id; // Set the relationship to the Account
+            opportunities.add(opp);
+        }
+        insert as system opportunities;
+    }
+
+    //Ex-9: Insert Bulk records with DataBase statement
+    public void testMethod9_system_Insert(){
+    List<Account> accountsToInsert = new List<Account>{
+            new Account(Name = 'Acme Corporation', Industry = 'Technology'),
+            new Account(Name = 'XYZ Inc', Industry = 'Finance')
+        };
+        Database.insert(accountsToInsert, true,AccessLevel.SYSTEM_MODE);
+    }
+    
+    //Ex-10 Insert Bulk records with DataBase Statement with Try-Catch statements
+    public void testMethod10_system_Insert(){
+    List<Contact> contactsToInsert = new List<Contact>{
+            new Contact(FirstName = 'John', LastName = 'Doe', Email = 'johndoe@example.com'),
+            new Contact(FirstName = 'Jane', LastName = 'Smith', Email = 'janesmith@example.com')
+        };
+        Database.SaveResult[] insertResults = Database.insert(contactsToInsert, false,AccessLevel.SYSTEM_MODE);
+        for (Database.SaveResult result : insertResults) {
+            if (result.isSuccess()) {
+                // Insert successful
+                System.debug('Contact inserted successfully.');
+            } else {
+                // Insert failed
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error message: ' + error.getMessage());
+                }
+            }
+        }
+    }
+    
+    //Ex-1: Update Single Record
+    public void testMethod1_user_Update(){
+        Account acc = [SELECT Id, Name, Industry FROM Account WHERE Id = '001XXXXXXXXXXXX' with USER_MODE];
+    acc.Industry = 'Technology';
+    update as user acc;
+    }
+    
+    //Ex-2: Update Multiple records
+    public void testMethod2_user_Update(){
+        List<Account> accounts = [SELECT Id, Name, Industry FROM Account WHERE Industry = 'Finance' with USER_MODE LIMIT 100];
+        for (Account acc : accounts) {
+            acc.Industry = 'Banking';
+        }
+    update as user accounts;
+    }
+    
+    //Ex-3: Update multiple records based on condition
+    public void testMethod3_user_Update(){
+        List<Account> accountsToUpdate = new List<Account>();
+        for (Account acc : [SELECT Id, Name, AnnualRevenue FROM Account WHERE AnnualRevenue > 1000000 with USER_MODE]) {
+            if(acc.AnnualRevenue != null){
+                acc.AnnualRevenue = acc.AnnualRevenue * 1.1;
+                accountsToUpdate.add(acc);
+                }
+        }
+    update as user accountsToUpdate;
+    }
+    
+    //Ex-4:    Update Multiple records with Relationship
+    public void testMethod4_user_Update(){
+        List<Contact> contacts = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with USER_MODE];
+        for(Contact con : contacts) {
+            con.FirstName = 'Updated First Name';
+            con.LastName = 'Updated Last Name';
+        }
+        update as user contacts;
+    }
+    
+    //Ex-5:    Update Single Record with Database Statement
+     public void testMethod5_user_Update(){
+        Database.update(new Account(Name='DBInsert'),false,AccessLevel.USER_MODE);
+    }
+    
+    //Ex-6:    Update Records based on a condition with Database Statement
+    public void testMethod6_user_Update(){
+    List<Contact> contactsToUpdate = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with USER_MODE];
+        for(Contact con : contactsToUpdate) {
+            if(con.Id != null){
+            con.FirstName = 'Updated First Name';
+            con.LastName = 'Updated Last Name';
+            }
+        }
+        Database.update(contactsToUpdate, true,AccessLevel.USER_MODE);
+    }
+    
+    //Ex-7:
+    public void testMethod7_user_Update(){
+    List<Contact> contactsToUpdate = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with USER_MODE];
+        for(Contact con : contactsToUpdate) {
+            con.FirstName = 'Updated First Name';
+            con.LastName = 'Updated Last Name';
+        }
+        Database.SaveResult[] updateResults = Database.update(contactsToUpdate, false,AccessLevel.USER_MODE);
+        for (Database.SaveResult result : updateResults) {
+            if (result.isSuccess()) {
+                // Insert successful
+                System.debug('Contact updated successfully.');
+            } else {
+                // Insert failed
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error message: ' + error.getMessage());
+                }
+            }
+        }
+    }
+    
+        //Ex-1: Update Single Record
+    public void testMethod1_system_Update(){
+        Account acc = [SELECT Id, Name, Industry FROM Account WHERE Id = '001XXXXXXXXXXXX' with SYSTEM_MODE];
+    acc.Industry = 'Technology';
+    update as system acc;
+    }
+    
+    //Ex-2: Update Multiple records
+    public void testMethod2_system_Update(){
+        List<Account> accounts = [SELECT Id, Name, Industry FROM Account WHERE Industry = 'Finance' with SYSTEM_MODE LIMIT 100];
+        for (Account acc : accounts) {
+            acc.Industry = 'Banking';
+        }
+    update as system accounts;
+    }
+    
+    //Ex-3: Update multiple records based on condition
+    public void testMethod3_system_Update(){
+        List<Account> accountsToUpdate = new List<Account>();
+        for (Account acc : [SELECT Id, Name, AnnualRevenue FROM Account WHERE AnnualRevenue > 1000000 with SYSTEM_MODE]) {
+            if(acc.AnnualRevenue != null){
+                acc.AnnualRevenue = acc.AnnualRevenue * 1.1;
+                accountsToUpdate.add(acc);
+                }
+        }
+    update as system accountsToUpdate;
+    }
+    
+    //Ex-4:    Update Multiple records with Relationship
+    public void testMethod4_system_Update(){
+        List<Contact> contacts = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with SYSTEM_MODE];
+        for(Contact con : contacts) {
+            con.FirstName = 'Updated First Name';
+            con.LastName = 'Updated Last Name';
+        }
+        update as system contacts;
+    }
+    
+    //Ex-5:    Update Single Record with Database Statement
+     public void testMethod5_system_Update(){
+        Database.update(new Account(Name='DBInsert'),false,AccessLevel.SYSTEM_MODE);
+    }
+    
+    //Ex-6:    Update Records based on a condition with Database Statement
+    public void testMethod6_system_Update(){
+    List<Contact> contactsToUpdate = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with SYSTEM_MODE];
+        for(Contact con : contactsToUpdate) {
+            if(con.Id != null){
+            con.FirstName = 'Updated First Name';
+            con.LastName = 'Updated Last Name';
+            }
+        }
+        Database.update(contactsToUpdate, true,AccessLevel.SYSTEM_MODE);
+    }
+    
+    //Ex-7:
+    public void testMethod7_system_Update(){
+    List<Contact> contactsToUpdate = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with SYSTEM_MODE];
+        for(Contact con : contactsToUpdate) {
+            con.FirstName = 'Updated First Name';
+            con.LastName = 'Updated Last Name';
+        }
+        Database.SaveResult[] updateResults = Database.update(contactsToUpdate, false,AccessLevel.SYSTEM_MODE);
+        for (Database.SaveResult result : updateResults) {
+            if (result.isSuccess()) {
+                // Insert successful
+                System.debug('Contact updated successfully.');
+            } else {
+                // Insert failed
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error message: ' + error.getMessage());
+                }
+            }
+        }
+    }
+    
+        //Ex-1:    Upsert Single Record
+    public void testMethod1_user_Upsert(){
+        Account accountToUpsert = new Account(Name = 'Example Account', ExternalAccId__c = 12345);
+        upsert as user accountToUpsert;
+        }
+    
+    //Ex-2:    Upsert Multiple Records
+    public void testMethod2_user_Upsert(){
+        List<Account> accountsToUpsert = new List<Account>();
+        accountsToUpsert.add(new Account(Name = 'Account 1', ExternalAccId__c = 1));
+        accountsToUpsert.add(new Account(Name = 'Account 2', ExternalAccId__c = 2));
+        upsert as user accountsToUpsert;
+    }    
+    
+    //Ex-3: Insert with DatabaseStatement
+    public void testMethod3_user_Upsert(){
+        Database.upsert(new Account(Name='DBInsert'),false,AccessLevel.USER_MODE);
+    }
+    
+    //Ex-4: Insert with relationships in Bulk
+    public void testMethod4_user_Upsert(){
+    // Creating an Account
+        Account acc = new Account();
+        acc.Name = 'Test Account';
+        upsert as user acc;
+
+        // Creating a Contact related to the Account
+        Contact con = new Contact();
+        con.FirstName = 'John';
+        con.LastName = 'Doe';
+        con.AccountId = acc.Id; // Set the relationship to the Account
+        upsert as user con;
+
+       
+        // Creating multiple Opportunity records related to the Account
+        List<Opportunity> opportunities = new List<Opportunity>();
+        for (Integer i = 0; i < 5; i++) {
+            Opportunity opp = new Opportunity();
+            opp.Name = 'Test Opportunity ' + i;
+            opp.AccountId = acc.Id; // Set the relationship to the Account
+            opportunities.add(opp);
+        }
+        upsert as user opportunities;
+    }
+    
+    //Ex-5: Upsert Bulk records with DataBase statement
+    public void testMethod5_user_Upsert(){
+    List<Account> accountsToInsert = new List<Account>{
+            new Account(Name = 'Acme Corporation', Industry = 'Technology'),
+            new Account(Name = 'XYZ Inc', Industry = 'Finance')
+        };
+        Database.upsert(accountsToInsert, true,AccessLevel.USER_MODE);
+    }
+    
+    //Ex-6:    Upsert Records with Database Statement
+    public void testMethod6_user_Upsert(){
+            Account account = new Account();
+            account.Name = 'Example Account';
+            account.ExternalAccId__c = 12345; // External ID field
+            account.Description = 'New account created';
+        
+            List<Account> accounts = new List<Account>();
+            accounts.add(account);
+        
+            Database.UpsertResult[] results = Database.upsert(accounts,false,AccessLevel.USER_MODE);
+            for (Database.UpsertResult result : results) {
+                if (result.isSuccess()) {
+                    // Record upserted successfully
+                    System.debug('Upserted Account ID: ' + result.getId());
+                } else {
+                    // Handle errors
+                    System.debug('Error message: ' + result.getErrors()[0].getMessage());
+                }
+            }
+    }
+    
+        //Ex-1:    Upsert Single Record
+    public void testMethod1_system_Upsert(){
+        Account accountToUpsert = new Account(Name = 'Example Account', ExternalAccId__c = 12345);
+        upsert as system accountToUpsert;
+        }
+    
+    //Ex-2:    Upsert Multiple Records
+    public void testMethod2_system_Upsert(){
+        List<Account> accountsToUpsert = new List<Account>();
+        accountsToUpsert.add(new Account(Name = 'Account 1', ExternalAccId__c = 1));
+        accountsToUpsert.add(new Account(Name = 'Account 2', ExternalAccId__c = 2));
+        upsert as system accountsToUpsert;
+    }    
+    
+    //Ex-3: Insert with DatabaseStatement
+    public void testMethod3_system_Upsert(){
+        Database.upsert(new Account(Name='DBInsert'),false,AccessLevel.SYSTEM_MODE);
+    }
+    
+    //Ex-4: Insert with relationships in Bulk
+    public void testMethod4_system_Upsert(){
+    // Creating an Account
+        Account acc = new Account();
+        acc.Name = 'Test Account';
+        upsert as system acc;
+
+        // Creating a Contact related to the Account
+        Contact con = new Contact();
+        con.FirstName = 'John';
+        con.LastName = 'Doe';
+        con.AccountId = acc.Id; // Set the relationship to the Account
+        upsert as system con;
+
+       
+        // Creating multiple Opportunity records related to the Account
+        List<Opportunity> opportunities = new List<Opportunity>();
+        for (Integer i = 0; i < 5; i++) {
+            Opportunity opp = new Opportunity();
+            opp.Name = 'Test Opportunity ' + i;
+            opp.AccountId = acc.Id; // Set the relationship to the Account
+            opportunities.add(opp);
+        }
+        upsert as system opportunities;
+    }
+    
+    //Ex-5: Upsert Bulk records with DataBase statement
+    public void testMethod5_system_Upsert(){
+    List<Account> accountsToInsert = new List<Account>{
+            new Account(Name = 'Acme Corporation', Industry = 'Technology'),
+            new Account(Name = 'XYZ Inc', Industry = 'Finance')
+        };
+        Database.upsert(accountsToInsert, true,AccessLevel.SYSTEM_MODE);
+    }
+    
+    //Ex-6:    Upsert Records with Database Statement
+    public void testMethod6_system_Upsert(){
+            Account account = new Account();
+            account.Name = 'Example Account';
+            account.ExternalAccId__c = 12345; // External ID field
+            account.Description = 'New account created';
+        
+            List<Account> accounts = new List<Account>();
+            accounts.add(account);
+        
+            Database.UpsertResult[] results = Database.upsert(accounts,false,AccessLevel.SYSTEM_MODE);
+            for (Database.UpsertResult result : results) {
+                if (result.isSuccess()) {
+                    // Record upserted successfully
+                    System.debug('Upserted Account ID: ' + result.getId());
+                } else {
+                    // Handle errors
+                    System.debug('Error message: ' + result.getErrors()[0].getMessage());
+                }
+            }
+    }
+    
+        //Ex-1: To Delete Single Record
+    public void testMethod1_user_Delete(){
+        String accName = 'SingleAccount';
+        Account acc = new Account(Name = accName);
+        delete as user acc;
+    }
+    
+    //Ex-2: To UnDelete Single Record using a Query
+    public void testMethod2_user_Delete(){
+    
+        Account accObj = [SELECT Id, Name, Industry FROM Account WHERE Id = '001XXXXXXXXXXXX' with USER_MODE];
+        delete as user accObj;
+    }
+    
+    //Ex-3: To UnDelete Multiple Records using a Query
+    public void testMethod3_user_Delete(){
+        
+        List<Contact> contacts = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with USER_MODE];
+        delete as user contacts;
+    }
+    
+    //Ex-4: To UnDelete Records with a condition
+    public void testMethod4_user_Delete(){
+        List<Account> accountsToUpdate = new List<Account>();
+        for (Account acc : [SELECT Id, Name, AnnualRevenue FROM Account WHERE AnnualRevenue > 1000000 with USER_MODE]) {
+            if(acc.AnnualRevenue != null){
+                accountsToUpdate.add(acc);
+                }
+        }
+    delete as user accountsToUpdate;
+    }
+    
+    //Ex-5: To UnDelete Records using Database Statement
+    public void testMethod5_user_Delete(){
+    
+        String accName = 'SingleAccount';
+        Database.delete(new Account(Name = accName),false,AccessLevel.USER_MODE);
+    }
+
+    //Ex-6: To Delete Bulk records with DataBase Statement with Try-Catch statements
+    public void testMethod6_user_Delete(){
+    List<Contact> contactsToDelete = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Name = 'Acme Corporation' and Account.Industry = 'Finance' with USER_MODE];
+        Database.DeleteResult[] deleteResults = Database.delete(contactsToDelete, false,AccessLevel.USER_MODE);
+        for (Database.DeleteResult result : deleteResults) {
+            if (result.isSuccess()) {
+                // Insert successful
+                System.debug('Contact deleted successfully.');
+            } else {
+                // Insert failed
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error message: ' + error.getMessage());
+                }
+            }
+        }
+    }
+    
+        //Ex-1: To Delete Single Record
+    public void testMethod1_system_Delete(){
+        String accName = 'SingleAccount';
+        Account acc = new Account(Name = accName);
+        delete as system acc;
+    }
+    
+    //Ex-2: To UnDelete Single Record using a Query
+    public void testMethod2_system_Delete(){
+    
+        Account accObj = [SELECT Id, Name, Industry FROM Account WHERE Id = '001XXXXXXXXXXXX' with SYSTEM_MODE];
+        delete as system accObj;
+    }
+    
+    //Ex-3: To UnDelete Multiple Records using a Query
+    public void testMethod3_system_Delete(){
+        
+        List<Contact> contacts = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with SYSTEM_MODE];
+        delete as system contacts;
+    }
+    
+    //Ex-4: To UnDelete Records with a condition
+    public void testMethod4_system_Delete(){
+        List<Account> accountsToUpdate = new List<Account>();
+        for (Account acc : [SELECT Id, Name, AnnualRevenue FROM Account WHERE AnnualRevenue > 1000000 with SYSTEM_MODE]) {
+            if(acc.AnnualRevenue != null){
+                accountsToUpdate.add(acc);
+                }
+        }
+    delete as system accountsToUpdate;
+    }
+    
+    //Ex-5: To UnDelete Records using Database Statement
+    public void testMethod5_system_Delete(){
+    
+        String accName = 'SingleAccount';
+        Database.delete(new Account(Name = accName),false,AccessLevel.SYSTEM_MODE);
+    }
+
+    //Ex-6: To Delete Bulk records with DataBase Statement with Try-Catch statements
+    public void testMethod6_system_Delete(){
+    List<Contact> contactsToDelete = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Name = 'Acme Corporation' and Account.Industry = 'Finance' with SYSTEM_MODE];
+        Database.DeleteResult[] deleteResults = Database.delete(contactsToDelete, false,AccessLevel.SYSTEM_MODE);
+        for (Database.DeleteResult result : deleteResults) {
+            if (result.isSuccess()) {
+                // Insert successful
+                System.debug('Contact deleted successfully.');
+            } else {
+                // Insert failed
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error message: ' + error.getMessage());
+                }
+            }
+        }
+    }
+    
+        //Ex-1: To UnDelete Single Record
+    public void testMethod1_user_Undelete(){
+            String accName = 'SingleAccount';
+            Account acc = new Account(Name = accName);
+            undelete as user acc;
+        }
+    
+    //Ex-2: To UnDelete Single Record using a Query
+    public void testMethod2_user_Undelete(){
+    
+        Account accObj = [SELECT Id, Name, Industry FROM Account WHERE Id = '001XXXXXXXXXXXX' with USER_MODE];
+        undelete as user accObj;
+    }
+    
+    //Ex-3: To UnDelete Multiple Records using a Query
+    public void testMethod3_user_Undelete(){
+        
+        List<Contact> contacts = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with USER_MODE];
+        undelete as system contacts;
+    }
+    
+    //Ex-4: To UnDelete Records with a condition    
+    public void testMethod4_user_Undelete(){
+        List<Account> accountsToUpdate = new List<Account>();
+        for (Account acc : [SELECT Id, Name, AnnualRevenue FROM Account WHERE AnnualRevenue > 1000000 with USER_MODE]) {
+            if(acc.AnnualRevenue != null){
+                accountsToUpdate.add(acc);
+                }
+        }
+    undelete as user accountsToUpdate;
+    }
+    
+    //Ex-5: To UnDelete Records using Database Statement
+    public void testMethod5_user_Undelete(){
+    
+        String accName = 'SingleAccount';
+        Database.undelete(new Account(Name = accName),false,AccessLevel.USER_MODE);
+    }
+
+    //Ex-6: To UnDelete Bulk records with DataBase Statement with Try-Catch statements
+    public void testMethod6_user_Undelete(){
+    List<Contact> contactsToDelete = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Name = 'Acme Corporation' and Account.Industry = 'Finance' with USER_MODE];
+        Database.UndeleteResult[] deleteResults = Database.undelete(contactsToDelete, false,AccessLevel.USER_MODE);
+        for (Database.UndeleteResult result : deleteResults) {
+            if (result.isSuccess()) {
+                // Insert successful
+                System.debug('Contact deleted successfully.');
+            } else {
+                // Insert failed
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error message: ' + error.getMessage());
+                }
+            }
+        }
+    }
+    
+        //Ex-1: To UnDelete Single Record
+    public void testMethod1_system_Undelete(){
+            String accName = 'SingleAccount';
+            Account acc = new Account(Name = accName);
+            undelete as system acc;
+        }
+    
+    //Ex-2: To UnDelete Single Record using a Query
+    public void testMethod2_system_Undelete(){
+    
+        Account accObj = [SELECT Id, Name, Industry FROM Account WHERE Id = '001XXXXXXXXXXXX' with SYSTEM_MODE];
+        undelete as system accObj;
+    }
+    
+    //Ex-3: To UnDelete Multiple Records using a Query
+    public void testMethod3_system_Undelete(){
+        
+        List<Contact> contacts = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Industry = 'Finance' with SYSTEM_MODE];
+        undelete as system contacts;
+    }
+    
+    //Ex-4: To UnDelete Records with a condition    
+    public void testMethod4_system_Undelete(){
+        List<Account> accountsToUpdate = new List<Account>();
+        for (Account acc : [SELECT Id, Name, AnnualRevenue FROM Account WHERE AnnualRevenue > 1000000 with SYSTEM_MODE]) {
+            if(acc.AnnualRevenue != null){
+                accountsToUpdate.add(acc);
+                }
+        }
+    undelete as system accountsToUpdate;
+    }
+    
+    //Ex-5: To UnDelete Records using Database Statement
+    public void testMethod5_system_Undelete(){
+    
+        String accName = 'SingleAccount';
+        Database.undelete(new Account(Name = accName),false,AccessLevel.SYSTEM_MODE);
+    }
+
+    //Ex-6: To UnDelete Bulk records with DataBase Statement with Try-Catch statements
+    public void testMethod6_system_Undelete(){
+    List<Contact> contactsToDelete = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Name = 'Acme Corporation' and Account.Industry = 'Finance' with SYSTEM_MODE];
+        Database.UndeleteResult[] deleteResults = Database.undelete(contactsToDelete, false,AccessLevel.SYSTEM_MODE);
+        for (Database.UndeleteResult result : deleteResults) {
+            if (result.isSuccess()) {
+                // Insert successful
+                System.debug('Contact deleted successfully.');
+            } else {
+                // Insert failed
+                for (Database.Error error : result.getErrors()) {
+                    System.debug('Error message: ' + error.getMessage());
+                }
+            }
+        }
+    }
+    
+    public void testMethod1_user_Merge(){
+                List<Account> ls = new List<Account>{new Account(name='Acme Inc.'),new Account(name='Acme')};
+                insert as user ls;
+                
+                Account masterAcct = [SELECT Id, Name FROM Account WHERE Name = 'Acme Inc.' with USER_MODE LIMIT 1];
+                Account mergeAcct = [SELECT Id, Name FROM Account WHERE Name = 'Acme' with USER_MODE LIMIT 1];
+                try {
+                    merge as user masterAcct mergeAcct;
+                } catch (DmlException e) {
+                    // Process exception here
+                }
+    }
+
+   public void testMethod2_user_Merge(){
+           // Create master account
+            Account master = new Account(Name='Account1');
+            insert as user master;
+            
+            // Create duplicate accounts
+                Account[] duplicates = new Account[]{
+            
+            // Duplicate account 
+                new Account(Name='Account1, Inc.'),
+            // Second duplicate account
+                new Account(Name='Account 1')
+            };
+            insert as user duplicates;
+            
+            // Create child contact and associate it with first account
+                Contact c = new Contact(firstname='Joe',lastname='Smith', accountId=duplicates[0].Id);
+                insert as user c;
+                
+             // Get the account contact relation ID, which is created when a contact is created on "Account1, Inc." 
+                  Contact resultAcrel = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Name = 'Acme Corporation' and Account.Industry = 'Finance' with USER_MODE LIMIT 1];
+
+
+            // Merge accounts into master
+                Database.MergeResult[] results = Database.merge(master, duplicates, false,AccessLevel.USER_MODE);
+                Database.MergeResult[] results1 = Database.merge(master, duplicates,AccessLevel.USER_MODE);
+                
+                for(Database.MergeResult res : results) {
+                    if (res.isSuccess()) {
+                        // Get the master ID from the result and validate it
+                        System.debug('Master record ID: ' + res.getId());
+                        System.assertEquals(master.Id, res.getId());              
+                        
+                        // Get the IDs of the merged records and display them
+                        List<Id> mergedIds = res.getMergedRecordIds();
+                        System.debug('IDs of merged records: ' + mergedIds);                
+                        
+                        // Get the ID of the reparented record and 
+                        // validate that this the contact ID.
+                        System.debug('Reparented record ID: ' + res.getUpdatedRelatedIds());
+                
+                     // Make sure there are two IDs (contact ID and account contact relation ID); the order isn't defined
+                        System.assertEquals(2, res.getUpdatedRelatedIds().size() );    
+                        boolean flag1 = false;
+                    boolean flag2 = false;
+                
+                
+                        // Because the order of the IDs isn't defined, the ID can be at index 0 or 1 of the array        
+                        if (resultAcrel.id == res.getUpdatedRelatedIds()[0] || resultAcrel.id == res.getUpdatedRelatedIds()[1] )
+                                flag1 = true;
+                        
+                       if (c.id == res.getUpdatedRelatedIds()[0] || c.id == res.getUpdatedRelatedIds()[1] )
+                            flag2 = true;
+                            
+                        System.assertEquals(flag1, true); 
+                        System.assertEquals(flag2, true);  
+                            
+                    }
+                        else {
+                            for(Database.Error err : res.getErrors()) {
+                                // Write each error to the debug output
+                                System.debug(err.getMessage());
+                            }
+                        }
+                    }
+    }
+    
+        public void testMethod1_system_Merge(){
+                List<Account> ls = new List<Account>{new Account(name='Acme Inc.'),new Account(name='Acme')};
+                insert as system ls;
+                
+                Account masterAcct = [SELECT Id, Name FROM Account WHERE Name = 'Acme Inc.' with SYSTEM_MODE LIMIT 1];
+                Account mergeAcct = [SELECT Id, Name FROM Account WHERE Name = 'Acme' with SYSTEM_MODE LIMIT 1];
+                try {
+                    merge as system masterAcct mergeAcct;
+                } catch (DmlException e) {
+                    // Process exception here
+                }
+    }
+
+   public void testMethod2_system_Merge(){
+           // Create master account
+            Account master = new Account(Name='Account1');
+            insert as system master;
+            
+            // Create duplicate accounts
+                Account[] duplicates = new Account[]{
+            
+            // Duplicate account 
+                new Account(Name='Account1, Inc.'),
+            // Second duplicate account
+                new Account(Name='Account 1')
+            };
+            insert as system duplicates;
+            
+            // Create child contact and associate it with first account
+                Contact c = new Contact(firstname='Joe',lastname='Smith', accountId=duplicates[0].Id);
+                insert as system c;
+                
+             // Get the account contact relation ID, which is created when a contact is created on "Account1, Inc." 
+                  Contact resultAcrel = [SELECT Id, FirstName, LastName, Account.Name FROM Contact WHERE Account.Name = 'Acme Corporation' and Account.Industry = 'Finance' with SYSTEM_MODE LIMIT 1];
+
+
+            // Merge accounts into master
+                Database.MergeResult[] results = Database.merge(master, duplicates, false,AccessLevel.SYSTEM_MODE);
+                Database.MergeResult[] results1 = Database.merge(master, duplicates,AccessLevel.SYSTEM_MODE);
+                
+                for(Database.MergeResult res : results) {
+                    if (res.isSuccess()) {
+                        // Get the master ID from the result and validate it
+                        System.debug('Master record ID: ' + res.getId());
+                        System.assertEquals(master.Id, res.getId());              
+                        
+                        // Get the IDs of the merged records and display them
+                        List<Id> mergedIds = res.getMergedRecordIds();
+                        System.debug('IDs of merged records: ' + mergedIds);                
+                        
+                        // Get the ID of the reparented record and 
+                        // validate that this the contact ID.
+                        System.debug('Reparented record ID: ' + res.getUpdatedRelatedIds());
+                
+                     // Make sure there are two IDs (contact ID and account contact relation ID); the order isn't defined
+                        System.assertEquals(2, res.getUpdatedRelatedIds().size() );    
+                        boolean flag1 = false;
+                    boolean flag2 = false;
+                
+                
+                        // Because the order of the IDs isn't defined, the ID can be at index 0 or 1 of the array        
+                        if (resultAcrel.id == res.getUpdatedRelatedIds()[0] || resultAcrel.id == res.getUpdatedRelatedIds()[1] )
+                                flag1 = true;
+                        
+                       if (c.id == res.getUpdatedRelatedIds()[0] || c.id == res.getUpdatedRelatedIds()[1] )
+                            flag2 = true;
+                            
+                        System.assertEquals(flag1, true); 
+                        System.assertEquals(flag2, true);  
+                            
+                    }
+                        else {
+                            for(Database.Error err : res.getErrors()) {
+                                // Write each error to the debug output
+                                System.debug(err.getMessage());
+                            }
+                        }
+                    }
+    }
+}

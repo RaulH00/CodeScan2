@@ -1,0 +1,5 @@
+<apex:page>
+    <apex:form>
+        <apex:inputText value="{!account.Name}" label="Account Name"/>
+    </apex:form>
+</apex:page>

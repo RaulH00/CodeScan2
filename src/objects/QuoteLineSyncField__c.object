@@ -1,0 +1,14 @@
+
+        <fullName>OppLineSyncField__c</fullName>
+        <description>Opportunity line item field that sync with quote line item field</description>
+        <externalId>false</externalId>
+        <label>OpportunityLineItem Sync Field</label>
+        <length>120</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>QuoteLineItem Sync Fields</label>
+    <visibility>Public</visibility>
+</CustomObject>

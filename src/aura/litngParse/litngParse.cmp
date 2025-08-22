@@ -1,0 +1,45 @@
+<aura:component implements="flexipage:availableForAllPageTypes,force:lightningQuickActionWithoutHeader" >
+    
+    
+    <aura:attribute name="experiments" type="List" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <div class="slds-grid slds-wrap slds-gutters">
+        
+        <aura:iteration items="{!v.experiments}" var="exp">
+            <div class="slds-col slds-size_1-of-3">
+                <article class="slds-card">
+                    <div class="" style="height:130px; overflow: auto;">
+                        <div style="">
+                            <h3 class="slds-text-heading--medium slds-border_bottom">
+                                <lightning:button label="{!exp.Name}"
+                                                  class="{!exp.Id}"
+                                                  variant="base"
+                                                  onclick="{!c.goToRecord}"
+                                                  />
+                            </h3>
+                            
+                        </div>
+                        <div style="display: flex; vertical-align; height: 90px">
+                            <aura:if isTrue="{!exp.External_Image_Url__c}">
+                                <div style="margin-top: 0.8em;position: relative; overflow: hidden;">
+                                    <div style="{!'background-image: url(\''+ exp.External_Image_Url__c + '\');
+                                                background-size:cover;
+                                                background-position:center;
+                                                background-repeat:no-repeat;    
+                                                width: 200px;    
+                                                height: 80px;'}">
+                                    </div>
+                                </div>
+                            </aura:if>
+                            
+                            <div style="margin: 0.8em;">{!exp.Short_Description__c}</div>
+                            
+                        </div>
+                    </div>
+                </article>
+                <br />
+            </div>
+        </aura:iteration>  
+    </div>
+</aura:component>

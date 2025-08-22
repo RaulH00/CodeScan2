@@ -1,0 +1,6 @@
+<apex:page>
+    <apex:form>
+        <!-- Custom field on standard object without description (rule does not apply here) -->
+        <apex:inputField value="{!account.Custom_Field__c}" label="Custom Field"/>
+    </apex:form>
+</apex:page>

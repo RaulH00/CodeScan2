@@ -1,0 +1,5 @@
+.sfdx/
+.scannerwork/
+src/.sfdx/
+src/.scannerwork/
+src/pages/.scannerwork/

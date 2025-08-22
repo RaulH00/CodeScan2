@@ -1,0 +1,5 @@
+<aura:component>    
+
+  <aura:unescapedHtml value="{!v.htmlstring}"/>.  //Bad: not recommended.
+
+</aura:component>
