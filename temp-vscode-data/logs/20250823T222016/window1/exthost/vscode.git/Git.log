@@ -1,0 +1,23 @@
+2025-08-23 22:20:28.931 [info] [main] Log level: Trace
+2025-08-23 22:20:28.932 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-08-23 22:20:29.988 [info] [main] Using git "2.51.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-08-23 22:20:29.988 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-23 22:20:29.988 [trace] [Model][doInitialScan] Settings: autoRepositoryDetection=true, openRepositoryInParentFolders=prompt
+2025-08-23 22:20:29.988 [trace] [Model][onDidChangeWorkspaceFolders] Workspace folders: [c:\Users\magmo\Desktop\CodeScan2\temp-workspace]
+2025-08-23 22:20:29.989 [trace] [Model][scanWorkspaceFolders] Workspace folder: c:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-23 22:20:30.058 [trace] [Model][openRepository] Repository: c:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-23 22:20:30.630 [trace] [Model][scanWorkspaceFolders] Workspace scan settings: repositoryScanMaxDepth=1; repositoryScanIgnoredFolders=[node_modules]; scanRepositories=[]
+2025-08-23 22:20:30.631 [trace] [Model][scanWorkspaceFolders] Workspace scan sub folders: [c:\Users\magmo\Desktop\CodeScan2\temp-workspace\.vscode]
+2025-08-23 22:20:30.686 [trace] [Model][onDidChangeConfiguration] Workspace folders: [c:\Users\magmo\Desktop\CodeScan2\temp-workspace]
+2025-08-23 22:20:30.899 [info] > git rev-parse --show-toplevel [692ms]
+2025-08-23 22:20:30.900 [trace] [Model][openRepository] Repository root for path c:\Users\magmo\Desktop\CodeScan2\temp-workspace is: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:20:30.902 [trace] [Model][openRepository] Repository in parent folder: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:20:30.902 [trace] [Model][openRepository] Repository: c:\Users\magmo\Desktop\CodeScan2\temp-workspace\.vscode
+2025-08-23 22:20:31.100 [info] > git rev-parse --show-toplevel [191ms]
+2025-08-23 22:20:31.101 [trace] [Model][openRepository] Repository root for path c:\Users\magmo\Desktop\CodeScan2\temp-workspace\.vscode is: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:20:31.101 [trace] [Model][openRepository] Repository in parent folder: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:20:31.102 [trace] [Model][openRepository] Repository: c:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-23 22:20:31.108 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2025-08-23 22:20:31.437 [info] > git rev-parse --show-toplevel [322ms]
+2025-08-23 22:20:31.437 [trace] [Model][openRepository] Repository root for path c:\Users\magmo\Desktop\CodeScan2\temp-workspace is: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:20:31.438 [trace] [Model][openRepository] Repository in parent folder: c:\Users\magmo\Desktop\CodeScan2

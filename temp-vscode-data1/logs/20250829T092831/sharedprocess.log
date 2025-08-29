@@ -1,0 +1,76 @@
+2025-08-29 09:28:36.641 [trace] PolicyConfiguration#initialize
+2025-08-29 09:28:36.641 [trace] PolicyConfiguration#updatePolicyDefinitions ["extensions.allowed","http.useLocalProxyConfiguration","http.electronFetch","http.proxy","http.proxyStrictSSL","http.proxyKerberosServicePrincipal","http.noProxy","http.proxyAuthorization","http.proxySupport","http.systemCertificates","http.experimental.systemCertificatesV2","http.fetchAdditionalSupport","telemetry.telemetryLevel","telemetry.feedback.enabled","telemetry.enableTelemetry"]
+2025-08-29 09:28:36.641 [trace] PolicyConfiguration#update ["extensions.allowed","telemetry.telemetryLevel","telemetry.feedback.enabled"]
+2025-08-29 09:28:36.642 [trace] PolicyConfiguration#updatePolicyDefinitions []
+2025-08-29 09:28:36.642 [trace] PolicyConfiguration#update []
+2025-08-29 09:28:36.773 [trace] PolicyConfiguration#updatePolicyDefinitions ["settingsSync.keybindingsPerPlatform","settingsSync.ignoredExtensions","settingsSync.ignoredSettings"]
+2025-08-29 09:28:36.773 [trace] sharedProcess configuration {"machineId":"3f014fbfd8b1ef2973a6e4bb1fa2e9a2e88f6956be351ccfba54d0b1ab4d0132","sqmId":"{60FFA504-AB8B-4DD8-9035-85D42872A121}","devDeviceId":"25625890-6cc9-4684-bd17-68d66123dfa6","codeCachePath":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1\\CachedData\\6f17636121051a53c88d3e605c491d22af2ba755","profiles":{"home":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/profiles","query":"","fragment":"","_formatted":null,"_fsPath":null},"all":[{"id":"__default__profile__","name":"Default","location":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User","query":"","fragment":"","_formatted":null,"_fsPath":null},"isDefault":true,"globalStorageHome":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/globalStorage","query":"","fragment":"","_formatted":null,"_fsPath":null},"settingsResource":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/settings.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"keybindingsResource":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/keybindings.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"tasksResource":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/tasks.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"snippetsHome":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/snippets","query":"","fragment":"","_formatted":null,"_fsPath":null},"promptsHome":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/prompts","query":"","fragment":"","_formatted":null,"_fsPath":null},"extensionsResource":{"scheme":"vscode-userdata","authority":"","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"mcpResource":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/mcp.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"cacheHome":{"scheme":"file","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/CachedProfilesData/__default__profile__","query":"","fragment":"","_formatted":null,"_fsPath":null},"workspaces":[{"scheme":"file","authority":"","path":"/c:/Users/magmo/Desktop/CodeScan2/temp-workspace","query":"","fragment":"","_formatted":null,"_fsPath":null}]}]},"args":{"_":[],"diff":false,"merge":false,"add":false,"remove":false,"goto":false,"new-window":true,"reuse-window":false,"wait":false,"user-data-dir":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1","help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"update-extensions":false,"version":false,"verbose":true,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-lcd-text":false,"disable-gpu":true,"disable-chromium-sandbox":false,"sandbox":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"transient":false,"use-inmemory-secretstorage":false,"disable-workspace-trust":true,"disable-crash-reporter":true,"skip-add-to-recently-opened":false,"open-url":true,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"do-not-include-pack-dependencies":false,"trace":false,"trace-memory-infra":false,"preserve-env":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"enable-rdp-display-tracking":false,"disable-layout-restore":false,"disable-experiments":false,"no-proxy-server":false,"no-sandbox":false,"inspect":"0","nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":true,"profile-temp":false,"_urls":["C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"],"logsPath":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1\\logs\\20250829T092831"},"logLevel":1,"loggers":[{"resource":{"scheme":"file","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/logs/20250829T092831/main.log","query":"","fragment":"","_formatted":"file:///c%3A/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/logs/20250829T092831/main.log","_fsPath":"c:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1\\logs\\20250829T092831\\main.log"},"id":"main","name":"Main"}],"policiesData":{"McpGalleryServiceUrl":{"definition":{"type":"string"}},"ExtensionGalleryServiceUrl":{"definition":{"type":"string"}},"AllowedExtensions":{"definition":{"type":"string"}},"ChatToolsAutoApprove":{"definition":{"type":"boolean","tags":["ACCOUNT","PREVIEW"],"defaultValue":false}},"ChatMCP":{"definition":{"type":"boolean","tags":["ACCOUNT","MCP"]}},"ChatAgentExtensionTools":{"definition":{"type":"boolean"}},"ChatAgentMode":{"definition":{"type":"boolean","tags":["ACCOUNT","AGENT"]}},"ChatPromptFiles":{"definition":{"type":"boolean"}},"UpdateMode":{"definition":{"type":"string"}},"TelemetryLevel":{"definition":{"type":"string"}},"EnableFeedback":{"definition":{"type":"boolean"}}}}
+2025-08-29 09:28:36.776 [trace] Started scanning system extensions
+2025-08-29 09:28:36.776 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:36.776 [trace] ExtensionManagementService#cleanUp
+2025-08-29 09:28:36.777 [trace] ExtensionManagementService#removeTempDeleteFolders
+2025-08-29 09:28:36.777 [trace] ExtensionManagementService.updateControlCache
+2025-08-29 09:28:36.778 [trace] PolicyConfiguration#update []
+2025-08-29 09:28:36.804 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2025-08-29 09:28:36.804 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:36.807 [trace] Extension VSIX downloads cache dir does not exist
+2025-08-29 09:28:36.870 [debug] Writing language packs {}
+2025-08-29 09:28:36.872 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\magmo\.vscode\extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:28:36.875 [trace] Started scanning system extensions
+2025-08-29 09:28:36.875 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:36.990 [trace] AbstractMcpResourceManagementService#populateLocalServers vscode-userdata:/c%3A/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/mcp.json
+2025-08-29 09:28:37.005 [debug] No extensions are marked as removed.
+2025-08-29 09:28:37.128 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 09:28:37.129 [trace] Scanned system extensions: 91
+2025-08-29 09:28:37.130 [debug] ComputeTargetPlatform: win32-x64
+2025-08-29 09:28:37.766 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\magmo\.vscode\extensions'
+2025-08-29 09:28:37.919 [trace] Scanned user extensions: 11
+2025-08-29 09:28:38.067 [trace] Scanned user extensions: 11
+2025-08-29 09:28:38.075 [trace] Scanned system extensions: 91
+2025-08-29 09:28:38.110 [trace] Scanned user extensions: 11
+2025-08-29 09:28:38.550 [trace] Started scanning system extensions
+2025-08-29 09:28:38.551 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:38.553 [debug] ComputeTargetPlatform: win32-x64
+2025-08-29 09:28:38.574 [debug] Writing language packs {}
+2025-08-29 09:28:38.696 [trace] Scanned user extensions: 11
+2025-08-29 09:28:38.835 [trace] Scanned system extensions: 91
+2025-08-29 09:28:38.950 [trace] Started scanning system extensions
+2025-08-29 09:28:38.950 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:39.011 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 09:28:39.013 [trace] Scanned system extensions: 91
+2025-08-29 09:28:39.061 [trace] Scanned user extensions: 11
+2025-08-29 09:28:39.124 [trace] Started scanning system extensions
+2025-08-29 09:28:39.125 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:39.146 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 09:28:39.146 [trace] Scanned system extensions: 91
+2025-08-29 09:28:39.187 [trace] Scanned user extensions: 11
+2025-08-29 09:28:39.276 [trace] Started scanning system extensions
+2025-08-29 09:28:39.276 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:39.297 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 09:28:39.297 [trace] Scanned system extensions: 91
+2025-08-29 09:28:39.310 [trace] Scanned user extensions: 11
+2025-08-29 09:28:39.392 [trace] Started scanning system extensions
+2025-08-29 09:28:39.393 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:39.416 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 09:28:39.417 [trace] Scanned system extensions: 91
+2025-08-29 09:28:39.427 [trace] Scanned user extensions: 11
+2025-08-29 09:28:39.780 [trace] Started scanning system extensions
+2025-08-29 09:28:39.781 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 09:28:39.877 [trace] Scanned user extensions: 11
+2025-08-29 09:28:40.287 [trace] Scanned system extensions: 91
+2025-08-29 09:28:46.764 [trace] [logs cleanup]: Starting to clean up old logs.
+2025-08-29 09:28:46.766 [trace] [logs cleanup]: Removing log folders '20250827T214626'
+2025-08-29 09:28:58.462 [debug] User data changed
+2025-08-29 09:28:58.605 [debug] User data changed
+2025-08-29 09:29:06.765 [trace] [code cache cleanup]: Starting to clean up old code cache folders.
+2025-08-29 09:29:06.766 [trace] [storage cleanup]: Starting to clean up workspace storage folders for unused empty workspaces.
+2025-08-29 09:29:06.863 [debug] User data changed
+2025-08-29 09:29:16.764 [trace] [language pack cache cleanup]: Starting to clean up unused language packs.
+2025-08-29 09:29:24.282 [debug] User data changed
+2025-08-29 09:29:24.505 [debug] User data changed
+2025-08-29 09:29:24.629 [debug] User data changed
+2025-08-29 09:29:25.644 [debug] User data changed
+2025-08-29 09:29:27.175 [debug] User data changed
+2025-08-29 09:29:33.755 [debug] User data changed
+2025-08-29 09:29:53.991 [debug] User data changed
+2025-08-29 09:30:13.416 [debug] User data changed

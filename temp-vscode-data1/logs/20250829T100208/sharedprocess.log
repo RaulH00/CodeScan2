@@ -1,0 +1,293 @@
+2025-08-29 10:02:11.688 [trace] PolicyConfiguration#initialize
+2025-08-29 10:02:11.688 [trace] PolicyConfiguration#updatePolicyDefinitions ["extensions.allowed","http.useLocalProxyConfiguration","http.electronFetch","http.proxy","http.proxyStrictSSL","http.proxyKerberosServicePrincipal","http.noProxy","http.proxyAuthorization","http.proxySupport","http.systemCertificates","http.experimental.systemCertificatesV2","http.fetchAdditionalSupport","telemetry.telemetryLevel","telemetry.feedback.enabled","telemetry.enableTelemetry"]
+2025-08-29 10:02:11.688 [trace] PolicyConfiguration#update ["extensions.allowed","telemetry.telemetryLevel","telemetry.feedback.enabled"]
+2025-08-29 10:02:11.689 [trace] PolicyConfiguration#updatePolicyDefinitions []
+2025-08-29 10:02:11.689 [trace] PolicyConfiguration#update []
+2025-08-29 10:02:11.875 [trace] PolicyConfiguration#updatePolicyDefinitions ["settingsSync.keybindingsPerPlatform","settingsSync.ignoredExtensions","settingsSync.ignoredSettings"]
+2025-08-29 10:02:11.875 [trace] sharedProcess configuration {"machineId":"3f014fbfd8b1ef2973a6e4bb1fa2e9a2e88f6956be351ccfba54d0b1ab4d0132","sqmId":"{60FFA504-AB8B-4DD8-9035-85D42872A121}","devDeviceId":"25625890-6cc9-4684-bd17-68d66123dfa6","codeCachePath":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1\\CachedData\\6f17636121051a53c88d3e605c491d22af2ba755","profiles":{"home":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/profiles","query":"","fragment":"","_formatted":null,"_fsPath":null},"all":[{"id":"__default__profile__","name":"Default","location":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User","query":"","fragment":"","_formatted":null,"_fsPath":null},"isDefault":true,"globalStorageHome":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/globalStorage","query":"","fragment":"","_formatted":null,"_fsPath":null},"settingsResource":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/settings.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"keybindingsResource":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/keybindings.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"tasksResource":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/tasks.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"snippetsHome":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/snippets","query":"","fragment":"","_formatted":null,"_fsPath":null},"promptsHome":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/prompts","query":"","fragment":"","_formatted":null,"_fsPath":null},"extensionsResource":{"scheme":"vscode-userdata","authority":"","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"mcpResource":{"scheme":"vscode-userdata","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/mcp.json","query":"","fragment":"","_formatted":null,"_fsPath":null},"cacheHome":{"scheme":"file","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/CachedProfilesData/__default__profile__","query":"","fragment":"","_formatted":null,"_fsPath":null},"workspaces":[{"scheme":"file","authority":"","path":"/c:/Users/magmo/Desktop/CodeScan2/temp-workspace","query":"","fragment":"","_formatted":null,"_fsPath":null}]}]},"args":{"_":[],"diff":false,"merge":false,"add":false,"remove":false,"goto":false,"new-window":true,"reuse-window":false,"wait":false,"user-data-dir":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1","help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"update-extensions":false,"version":false,"verbose":true,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-lcd-text":false,"disable-gpu":true,"disable-chromium-sandbox":false,"sandbox":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"transient":false,"use-inmemory-secretstorage":false,"disable-workspace-trust":true,"disable-crash-reporter":true,"skip-add-to-recently-opened":false,"open-url":true,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"do-not-include-pack-dependencies":false,"trace":false,"trace-memory-infra":false,"preserve-env":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"enable-rdp-display-tracking":false,"disable-layout-restore":false,"disable-experiments":false,"no-proxy-server":false,"no-sandbox":false,"inspect":"0","nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":true,"profile-temp":false,"_urls":["C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"],"logsPath":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1\\logs\\20250829T100208"},"logLevel":1,"loggers":[{"resource":{"scheme":"file","authority":"","path":"/C:/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/logs/20250829T100208/main.log","query":"","fragment":"","_formatted":"file:///c%3A/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/logs/20250829T100208/main.log","_fsPath":"c:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1\\logs\\20250829T100208\\main.log"},"id":"main","name":"Main"}],"policiesData":{"McpGalleryServiceUrl":{"definition":{"type":"string"}},"ExtensionGalleryServiceUrl":{"definition":{"type":"string"}},"AllowedExtensions":{"definition":{"type":"string"}},"ChatToolsAutoApprove":{"definition":{"type":"boolean","tags":["ACCOUNT","PREVIEW"],"defaultValue":false}},"ChatMCP":{"definition":{"type":"boolean","tags":["ACCOUNT","MCP"]}},"ChatAgentExtensionTools":{"definition":{"type":"boolean"}},"ChatAgentMode":{"definition":{"type":"boolean","tags":["ACCOUNT","AGENT"]}},"ChatPromptFiles":{"definition":{"type":"boolean"}},"UpdateMode":{"definition":{"type":"string"}},"TelemetryLevel":{"definition":{"type":"string"}},"EnableFeedback":{"definition":{"type":"boolean"}}}}
+2025-08-29 10:02:11.879 [trace] Started scanning system extensions
+2025-08-29 10:02:11.879 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:11.879 [trace] ExtensionManagementService#cleanUp
+2025-08-29 10:02:11.881 [trace] ExtensionManagementService#removeTempDeleteFolders
+2025-08-29 10:02:11.882 [trace] ExtensionManagementService.updateControlCache
+2025-08-29 10:02:11.882 [trace] PolicyConfiguration#update []
+2025-08-29 10:02:11.883 [trace] ExtensionManagementService.refreshControlCache - failed to get extension control manifest No extension gallery service configured.
+2025-08-29 10:02:11.883 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:12.574 [trace] Extension VSIX downloads cache dir does not exist
+2025-08-29 10:02:12.575 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\magmo\.vscode\extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 10:02:12.575 [debug] Writing language packs {}
+2025-08-29 10:02:12.575 [trace] Started scanning system extensions
+2025-08-29 10:02:12.576 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:12.737 [trace] AbstractMcpResourceManagementService#populateLocalServers vscode-userdata:/c%3A/Users/magmo/Desktop/CodeScan2/temp-vscode-data1/User/mcp.json
+2025-08-29 10:02:12.894 [debug] User data changed
+2025-08-29 10:02:12.918 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 10:02:12.922 [trace] Scanned system extensions: 91
+2025-08-29 10:02:12.922 [debug] ComputeTargetPlatform: win32-x64
+2025-08-29 10:02:12.937 [debug] Deleting extensions marked as removed: ["vscjava.vscode-gradle-3.16.4","vscjava.vscode-maven-0.44.0","vscjava.vscode-java-debug-0.58.2","vscjava.vscode-java-test-0.43.1","vscjava.vscode-java-pack-0.29.2","redhat.java-1.44.0-win32-x64","visualstudioexptteam.vscodeintellicode-1.3.2","vscjava.vscode-java-dependency-0.24.1","visualstudioexptteam.intellicode-api-usage-examples-0.2.9"]
+2025-08-29 10:02:13.244 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\magmo\.vscode\extensions'
+2025-08-29 10:02:13.349 [trace] Scanned user extensions: 2
+2025-08-29 10:02:13.361 [trace] Scanned user extensions: 2
+2025-08-29 10:02:13.622 [trace] Scanned system extensions: 91
+2025-08-29 10:02:13.751 [trace] Scanned user extensions: 2
+2025-08-29 10:02:14.377 [trace] Started scanning system extensions
+2025-08-29 10:02:14.382 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:14.384 [debug] ComputeTargetPlatform: win32-x64
+2025-08-29 10:02:14.413 [debug] Writing language packs {}
+2025-08-29 10:02:14.414 [info] visualstudioexptteam.vscodeintellicode 1.3.2 Running post uninstall script
+2025-08-29 10:02:14.532 [info] Marked extension as removed redhat.java-1.44.0-win32-x64
+2025-08-29 10:02:14.532 [info] Marked extension as removed visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+2025-08-29 10:02:14.533 [info] Marked extension as removed visualstudioexptteam.vscodeintellicode-1.3.2
+2025-08-29 10:02:14.533 [info] Marked extension as removed vscjava.vscode-gradle-3.16.4
+2025-08-29 10:02:14.533 [info] Marked extension as removed vscjava.vscode-java-debug-0.58.2
+2025-08-29 10:02:14.533 [info] Marked extension as removed vscjava.vscode-java-dependency-0.24.1
+2025-08-29 10:02:14.534 [info] Marked extension as removed vscjava.vscode-java-pack-0.29.2
+2025-08-29 10:02:14.534 [info] Marked extension as removed vscjava.vscode-java-test-0.43.1
+2025-08-29 10:02:14.534 [info] Marked extension as removed vscjava.vscode-maven-0.44.0
+2025-08-29 10:02:14.612 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:14.612 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:14.648 [debug] User data changed
+2025-08-29 10:02:14.649 [trace] Scanned user extensions: 2
+2025-08-29 10:02:14.673 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:14.674 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:14.717 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:14.747 [trace] Scanned system extensions: 91
+2025-08-29 10:02:14.757 [debug] User data changed
+2025-08-29 10:02:14.858 [trace] Started scanning system extensions
+2025-08-29 10:02:14.858 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:14.859 [trace] Started scanning system extensions
+2025-08-29 10:02:14.860 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:14.873 [error] visualstudioexptteam.vscodeintellicode 1.3.2 post-uninstall node:internal/modules/cjs/loader:1411
+  throw err;
+  ^
+
+Error: Cannot find module 'c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2\dist\uninstall'
+[90m    at Module._resolveFilename (node:internal/modules/cjs/loader:1408:15)[39m
+[90m    at defaultResolveImpl (node:internal/modules/cjs/loader:1064:19)[39m
+[90m    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1069:22)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1218:37)[39m
+[90m    at c._load (node:electron/js2c/node_init:2:18013)[39m
+[90m    at TracingChannel.traceSync (node:diagnostics_channel:322:14)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:242:24)[39m
+[90m    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:186:5)[39m
+[90m    at node:internal/main/run_main_module:36:49[39m {
+  code: [32m'MODULE_NOT_FOUND'[39m,
+  requireStack: []
+}
+
+Node.js v22.17.0
+
+2025-08-29 10:02:14.892 [trace] Scanned user extensions: 2
+2025-08-29 10:02:14.892 [trace] Scanned user extensions: 2
+2025-08-29 10:02:14.916 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 10:02:14.917 [trace] Scanned system extensions: 91
+2025-08-29 10:02:15.121 [trace] Started scanning system extensions
+2025-08-29 10:02:15.121 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:15.150 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 10:02:15.151 [trace] Scanned system extensions: 91
+2025-08-29 10:02:15.201 [trace] Scanned user extensions: 2
+2025-08-29 10:02:15.221 [error] Failed to run post uninstall script visualstudioexptteam.vscodeintellicode 1.3.2
+2025-08-29 10:02:15.221 [error] post-uninstall process exited with code 1
+2025-08-29 10:02:15.244 [trace] Deleting marked for removal extension from disk redhat.java c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64
+2025-08-29 10:02:15.245 [trace] Deleting marked for removal extension from disk visualstudioexptteam.intellicode-api-usage-examples c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+2025-08-29 10:02:15.245 [trace] Deleting marked for removal extension from disk visualstudioexptteam.vscodeintellicode c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2
+2025-08-29 10:02:15.246 [trace] Deleting marked for removal extension from disk vscjava.vscode-gradle c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4
+2025-08-29 10:02:15.246 [trace] Deleting marked for removal extension from disk vscjava.vscode-java-debug c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2
+2025-08-29 10:02:15.284 [trace] Deleting marked for removal extension from disk vscjava.vscode-java-dependency c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1
+2025-08-29 10:02:15.285 [trace] Deleting marked for removal extension from disk vscjava.vscode-java-pack c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2
+2025-08-29 10:02:15.286 [trace] Deleting marked for removal extension from disk vscjava.vscode-java-test c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1
+2025-08-29 10:02:15.286 [trace] Deleting marked for removal extension from disk vscjava.vscode-maven c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0
+2025-08-29 10:02:15.288 [trace] Scanned system extensions: 91
+2025-08-29 10:02:15.300 [trace] Started scanning system extensions
+2025-08-29 10:02:15.300 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:15.301 [trace] [File Watcher (node.js)] [raw] ["rename"] redhat.java-1.44.0-win32-x64
+2025-08-29 10:02:15.309 [trace] [File Watcher (node.js)] [raw] ["rename"] redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.393 [debug] User data changed
+2025-08-29 10:02:15.397 [trace] [File Watcher (node.js)] [raw] ["change"] redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.397 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.397 [trace] [File Watcher (node.js)] [raw] ["rename"] visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+2025-08-29 10:02:15.398 [trace] [File Watcher (node.js)] [raw] ["rename"] visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.399 [trace] [File Watcher (node.js)] [raw] ["change"] visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.400 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.400 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-dependency-0.24.1
+2025-08-29 10:02:15.402 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.406 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-debug-0.58.2
+2025-08-29 10:02:15.406 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.406 [trace] [File Watcher (node.js)] [raw] ["change"] vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.406 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.407 [trace] [File Watcher (node.js)] [raw] ["rename"] visualstudioexptteam.vscodeintellicode-1.3.2
+2025-08-29 10:02:15.407 [trace] [File Watcher (node.js)] [raw] ["rename"] visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.409 [trace] [File Watcher (node.js)] [raw] ["change"] visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.410 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.410 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-test-0.43.1
+2025-08-29 10:02:15.411 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.412 [trace] [File Watcher (node.js)] [raw] ["change"] vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.413 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.415 [trace] [File Watcher (node.js)] [raw] ["change"] vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.415 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.416 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-maven-0.44.0
+2025-08-29 10:02:15.426 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.428 [trace] [File Watcher (node.js)] [raw] ["change"] vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.428 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.437 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-pack-0.29.2
+2025-08-29 10:02:15.440 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.441 [trace] [File Watcher (node.js)] [raw] ["change"] vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.442 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.442 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-gradle-3.16.4
+2025-08-29 10:02:15.444 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.445 [trace] [File Watcher (node.js)] [raw] ["change"] vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.445 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.491 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.492 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.492 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.492 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.493 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.493 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.493 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.493 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.494 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.532 [debug] User data changed
+2025-08-29 10:02:15.538 [trace] [File Watcher (node.js)] [raw] ["rename"] redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.579 [info] Deleted marked for removal extension from disk vscjava.vscode-java-debug c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2
+2025-08-29 10:02:15.579 [info] Deleted marked for removal extension from disk vscjava.vscode-java-test c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1
+2025-08-29 10:02:15.579 [info] Deleted marked for removal extension from disk vscjava.vscode-java-dependency c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1
+2025-08-29 10:02:15.580 [info] Deleted marked for removal extension from disk visualstudioexptteam.vscodeintellicode c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2
+2025-08-29 10:02:15.580 [info] Deleted marked for removal extension from disk visualstudioexptteam.intellicode-api-usage-examples c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+2025-08-29 10:02:15.580 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.580 [trace] [File Watcher (node.js)] [raw] ["rename"] visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.581 [trace] [File Watcher (node.js)] [raw] ["rename"] visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.581 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.581 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.581 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.582 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.592 [info] Deleted marked for removal extension from disk redhat.java c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64
+2025-08-29 10:02:15.595 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64
+2025-08-29 10:02:15.597 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.642 [debug] User data changed
+2025-08-29 10:02:15.649 [info] Deleted marked for removal extension from disk vscjava.vscode-maven c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0
+2025-08-29 10:02:15.649 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+2025-08-29 10:02:15.650 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.650 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1
+2025-08-29 10:02:15.650 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.651 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2
+2025-08-29 10:02:15.655 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.656 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2
+2025-08-29 10:02:15.657 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.657 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1
+2025-08-29 10:02:15.658 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.659 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0
+2025-08-29 10:02:15.659 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.660 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2
+2025-08-29 10:02:15.660 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.661 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4
+2025-08-29 10:02:15.661 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.711 [trace] [File Watcher (node.js)] [raw] ["rename"] vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.717 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0
+2025-08-29 10:02:15.717 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64
+2025-08-29 10:02:15.717 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4
+2025-08-29 10:02:15.718 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1
+2025-08-29 10:02:15.718 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2
+2025-08-29 10:02:15.718 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2
+2025-08-29 10:02:15.718 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1
+2025-08-29 10:02:15.719 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.719 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2
+2025-08-29 10:02:15.719 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.720 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.720 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.721 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.721 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.721 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.721 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9
+2025-08-29 10:02:15.722 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.722 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.725 [info] Deleted marked for removal extension from disk vscjava.vscode-java-pack c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2
+2025-08-29 10:02:15.728 [info] Deleted marked for removal extension from disk vscjava.vscode-gradle c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4
+2025-08-29 10:02:15.732 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.777 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.778 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.778 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.778 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.778 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.779 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.779 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.807 [debug] User data changed
+2025-08-29 10:02:15.820 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-maven-0.44.0.-b689e1c.vsctmp
+2025-08-29 10:02:15.821 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\redhat.java-1.44.0-win32-x64.-5f488f7f.vsctmp
+2025-08-29 10:02:15.821 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-test-0.43.1.5add67ce.vsctmp
+2025-08-29 10:02:15.821 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-pack-0.29.2.5c248523.vsctmp
+2025-08-29 10:02:15.821 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-debug-0.58.2.-43e68c5f.vsctmp
+2025-08-29 10:02:15.822 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-java-dependency-0.24.1.-10eca4a6.vsctmp
+2025-08-29 10:02:15.822 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.vscodeintellicode-1.3.2.-57b1a481.vsctmp
+2025-08-29 10:02:15.822 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\visualstudioexptteam.intellicode-api-usage-examples-0.2.9.-3914ddc7.vsctmp
+2025-08-29 10:02:15.855 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:15.855 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:15.857 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.869 [debug] User data changed
+2025-08-29 10:02:15.877 [trace] Scanned user extensions: 2
+2025-08-29 10:02:15.937 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\vscjava.vscode-gradle-3.16.4.1e1c9f67.vsctmp
+2025-08-29 10:02:15.938 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:15.948 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:15.948 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.056 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.058 [debug] User data changed
+2025-08-29 10:02:16.116 [debug] User data changed
+2025-08-29 10:02:16.161 [trace] Scanned system extensions: 91
+2025-08-29 10:02:16.526 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.527 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.536 [trace] Started scanning system extensions
+2025-08-29 10:02:16.536 [trace] Started scanning user extensions {"$mid":1,"external":"vscode-userdata:/c%3A/Users/magmo/.vscode/extensions/extensions.json","path":"/c:/Users/magmo/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}
+2025-08-29 10:02:16.563 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.564 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.591 [debug] Using cached extensions scan result system file:///e%3A/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/extensions
+2025-08-29 10:02:16.592 [trace] Scanned system extensions: 91
+2025-08-29 10:02:16.608 [debug] User data changed
+2025-08-29 10:02:16.621 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.630 [trace] Scanned user extensions: 2
+2025-08-29 10:02:16.681 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.681 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.693 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.693 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.716 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.717 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.759 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.759 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.760 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.760 [debug] User data changed
+2025-08-29 10:02:16.782 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.782 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.784 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.784 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.813 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.813 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.837 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.838 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.856 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.857 [debug] User data changed
+2025-08-29 10:02:16.869 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.869 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.897 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.897 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.927 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.927 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.949 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.950 [debug] User data changed
+2025-08-29 10:02:16.953 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.953 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.977 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.978 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:16.980 [trace] [File Watcher (node.js)] [raw] ["change"] .obsolete
+2025-08-29 10:02:16.981 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:17.017 [trace] [File Watcher (node.js)] [raw] ["rename"] .obsolete
+2025-08-29 10:02:17.041 [debug] User data changed
+2025-08-29 10:02:17.042 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:17.127 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:17.204 [debug] User data changed
+2025-08-29 10:02:17.207 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\.vscode\extensions\.obsolete
+2025-08-29 10:02:21.796 [trace] [logs cleanup]: Starting to clean up old logs.
+2025-08-29 10:02:21.797 [trace] [logs cleanup]: Removing log folders '20250827T220837'
+2025-08-29 10:02:36.236 [debug] User data changed
+2025-08-29 10:02:36.600 [debug] User data changed
+2025-08-29 10:02:38.548 [debug] User data changed
+2025-08-29 10:02:41.781 [trace] [code cache cleanup]: Starting to clean up old code cache folders.
+2025-08-29 10:02:41.782 [trace] [storage cleanup]: Starting to clean up workspace storage folders for unused empty workspaces.
+2025-08-29 10:02:41.785 [trace] [storage cleanup]: Deleting workspace storage folder 1756483103437 as it seems to be an unused empty workspace.
+2025-08-29 10:02:41.899 [debug] User data changed

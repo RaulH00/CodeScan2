@@ -1,0 +1,34 @@
+Executing C:\Program Files\Java\jdk-24\bin\java -Dcodescan.httpclient.version= -jar c:\Users\magmo\.vscode\extensions\codescansf.codescan-vscode-2.1.1\server\sonarlint-ls.jar -stdio
+[Warn  - 10:53:26.772] Embedded plugin not found: C
+[Warn  - 10:53:26.875] Embedded plugin not found: HTML
+[Warn  - 10:53:26.876] Embedded plugin not found: JavaScript
+[Warn  - 10:53:26.877] Embedded plugin not found: XML
+[Warn  - 10:53:26.878] Embedded plugin not found: Secrets
+[Warn  - 10:53:26.880] Embedded plugin not found: Go
+[Warn  - 10:53:26.882] Embedded plugin not found: CloudFormation
+[Warn  - 10:53:27.305] Embedded plugin not found: C
+[Warn  - 10:53:27.305] Embedded plugin not found: HTML
+[Warn  - 10:53:27.305] Embedded plugin not found: JavaScript
+[Warn  - 10:53:27.305] Embedded plugin not found: XML
+[Warn  - 10:53:27.305] Embedded plugin not found: Secrets
+[Warn  - 10:53:27.306] Embedded plugin not found: Go
+[Warn  - 10:53:27.306] Embedded plugin not found: CloudFormation
+[Info  - 10:53:34.068] Started embedded server on port 64123
+[Warn  - 10:53:34.926] Plugin 'codescan' embeds dependencies. This will be deprecated soon. Plugin should be updated.
+[Warn  - 10:53:35.540] Plugin 'codescanlang' embeds dependencies. This will be deprecated soon. Plugin should be updated.
+[Info  - 10:53:41.507] Downloaded plugin list in 181ms
+[Info  - 10:53:41.509] [SYNC] Synchronizing analyzer configuration for project 'RaulH00-CodeScan'
+[Info  - 10:53:41.638] Downloaded settings in 124ms
+[Info  - 10:53:41.785] [SYNC] Fetching rule set for language 'css' from profile 'c5f2f5c3-8a5b-45b4-892f-59f3f196ae9b'
+[Info  - 10:53:41.947] [SYNC] Fetching rule set for language 'go' from profile 'bc1588fe-90a7-430f-b354-8eb9c24e89fa'
+[Info  - 10:53:42.072] [SYNC] Fetching rule set for language 'java' from profile 'b9184a50-4a60-42b1-bef4-e2cfbebc88e4'
+[Info  - 10:53:42.570] [SYNC] Fetching rule set for language 'js' from profile 'e6a1c382-0d57-4700-9081-ae0fadb03449'
+[Info  - 10:53:42.736] [SYNC] Fetching rule set for language 'kotlin' from profile '077549fc-6ff5-47d1-a2da-d59a613d7588'
+[Info  - 10:53:42.894] [SYNC] Fetching rule set for language 'php' from profile '8a6f555a-2721-41a5-9fc7-9c5ee720c48a'
+[Info  - 10:53:43.067] [SYNC] Fetching rule set for language 'py' from profile '755816cb-7183-4b12-ba9b-cf3f42714930'
+[Info  - 10:53:43.282] [SYNC] Fetching rule set for language 'sf' from profile '24e7773b-c172-4fc1-84a0-c1d5db43fed5'
+[Info  - 10:53:43.441] [SYNC] Fetching rule set for language 'sfmeta' from profile '118da07d-f88a-4e24-a4c7-5f94895787db'
+[Info  - 10:53:43.565] [SYNC] Fetching rule set for language 'ts' from profile '7ec72051-6d1c-4cf7-81ac-b38cf7be206e'
+[Info  - 10:53:43.805] [SYNC] Fetching rule set for language 'vf' from profile '2e8b2ae4-8b17-4273-87d9-44cb3a1af7dd'
+[Info  - 10:53:43.943] [SYNC] Fetching rule set for language 'web' from profile 'db241f30-28ce-4ebb-b619-3175cb1c10bd'
+[Info  - 10:53:44.120] [SYNC] Synchronizing project branches for project 'RaulH00-CodeScan'

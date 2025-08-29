@@ -1,0 +1,27 @@
+2025-08-29 09:28:35.338 [trace] [1756481] Reconnected to local terminals []
+2025-08-29 09:28:35.338 [trace] [1756481] Pty host ready []
+2025-08-29 09:29:52.965 [trace] [1756481] terminalInstance#ctor (instanceId: 1) [{"shellIntegrationEnvironmentReporting":false}]
+2025-08-29 09:29:53.232 [debug] [1756481] Unbinding from mouse events. []
+2025-08-29 09:29:53.306 [debug] [1756481] Starting pty host []
+2025-08-29 09:29:53.307 [trace] [1756481] Renderer->PtyHost#connect: before acquirePort []
+2025-08-29 09:29:53.387 [trace] [1756481] Webgl was loaded []
+2025-08-29 09:29:53.542 [debug] [1756481] The terminal's pty host process is starting []
+2025-08-29 09:29:53.587 [trace] [1756481] Renderer->PtyHost#connect: connection established []
+2025-08-29 09:29:54.360 [debug] [1756481] Terminal process ready (shellProcessId: 5728) []
+2025-08-29 09:29:54.368 [debug] [1756481] terminalInstance added capability [3]
+2025-08-29 09:29:54.847 [debug] [1756481] parsing data "[2J[m[HPS C:\Users\magmo>[1C]0;C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe[?25h" [[27,91,50,74,27,91,109,27,91,72,80,83,32,67,58,92,85,115,101,114,115,92,109,97,103,109,111,62,27,91,49,67,27,93,48,59,67,58,92,87,73,78,68,79,87,83,92,83,121,115,116,101,109,51,50,92,87,105,110,100,111,119,115,80,111,119,101,114,83,104,101,108,108,92,118,49,46,48,92,112,111,119,101,114,115,104,101,108,108,46,101,120,101,7,27,91,63,50,53,104]]
+2025-08-29 09:29:54.855 [debug] [1756481] parsing data "[25l[HPS C:\Users\magmo>[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;20H[?25h" [[27,91,50,53,108,27,91,72,80,83,32,67,58,92,85,115,101,114,115,92,109,97,103,109,111,62,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,13,10,27,91,75,27,91,49,59,50,48,72,27,91,63,50,53,104]]
+2025-08-29 09:32:14.673 [trace] [1756481] terminalInstance#dispose (instanceId: 1) []
+2025-08-29 09:32:14.688 [debug] [1756481] Terminal process exit ["instanceId",1,"code",null,"processState",5]

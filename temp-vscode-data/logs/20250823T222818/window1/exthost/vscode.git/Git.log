@@ -1,0 +1,18 @@
+2025-08-23 22:28:29.858 [info] [main] Log level: Trace
+2025-08-23 22:28:29.858 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-08-23 22:28:29.858 [info] [main] Using git "2.51.0.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-08-23 22:28:29.858 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-23 22:28:29.858 [trace] [Model][doInitialScan] Settings: autoRepositoryDetection=true, openRepositoryInParentFolders=prompt
+2025-08-23 22:28:29.858 [trace] [Model][onDidChangeWorkspaceFolders] Workspace folders: [c:\Users\magmo\Desktop\CodeScan2\temp-workspace]
+2025-08-23 22:28:29.859 [trace] [Model][scanWorkspaceFolders] Workspace folder: c:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-23 22:28:29.859 [trace] [Model][openRepository] Repository: c:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-23 22:28:29.859 [trace] [Model][scanWorkspaceFolders] Workspace scan settings: repositoryScanMaxDepth=1; repositoryScanIgnoredFolders=[node_modules]; scanRepositories=[]
+2025-08-23 22:28:29.859 [trace] [Model][scanWorkspaceFolders] Workspace scan sub folders: [c:\Users\magmo\Desktop\CodeScan2\temp-workspace\.vscode]
+2025-08-23 22:28:29.859 [info] > git rev-parse --show-toplevel [137ms]
+2025-08-23 22:28:29.859 [trace] [Model][openRepository] Repository root for path c:\Users\magmo\Desktop\CodeScan2\temp-workspace is: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:28:29.861 [trace] [Model][openRepository] Repository in parent folder: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:28:29.861 [trace] [Model][openRepository] Repository: c:\Users\magmo\Desktop\CodeScan2\temp-workspace\.vscode
+2025-08-23 22:28:29.992 [info] > git rev-parse --show-toplevel [123ms]
+2025-08-23 22:28:29.992 [trace] [Model][openRepository] Repository root for path c:\Users\magmo\Desktop\CodeScan2\temp-workspace\.vscode is: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:28:29.993 [trace] [Model][openRepository] Repository in parent folder: c:\Users\magmo\Desktop\CodeScan2
+2025-08-23 22:28:29.998 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (1), unsafe repositories (0)

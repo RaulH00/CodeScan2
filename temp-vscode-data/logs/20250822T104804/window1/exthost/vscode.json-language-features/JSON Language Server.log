@@ -1,0 +1,9 @@
+2025-08-22 10:48:40.233 [trace] Sending request 'initialize - (0)'.
+2025-08-22 10:48:40.485 [trace] Received response 'initialize - (0)' in 277ms.
+2025-08-22 10:48:40.485 [trace] Sending notification 'initialized'.
+2025-08-22 10:48:40.499 [trace] Sending notification 'workspace/didChangeConfiguration'.
+2025-08-22 10:48:40.506 [trace] Sending notification 'json/schemaAssociations'.
+2025-08-22 10:48:40.508 [trace] Received request 'workspace/diagnostic/refresh - (0)'.
+2025-08-22 10:48:40.508 [trace] Sending response 'workspace/diagnostic/refresh - (0)'. Processing request took 1ms
+2025-08-22 10:48:40.513 [trace] Received request 'workspace/diagnostic/refresh - (1)'.
+2025-08-22 10:48:40.514 [trace] Sending response 'workspace/diagnostic/refresh - (1)'. Processing request took 0ms

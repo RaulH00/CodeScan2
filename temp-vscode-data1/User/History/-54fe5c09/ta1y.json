@@ -1,0 +1,10 @@
+{
+    "codescan.connectedMode.connections.servers": [
+        {
+            "serverUrl": "https://test.codescan.io",
+            "isCloudConnection": true,
+            "organizationKey": "newtestorg",
+            "connectionId": "newtestorg"
+        }
+    ]
+}

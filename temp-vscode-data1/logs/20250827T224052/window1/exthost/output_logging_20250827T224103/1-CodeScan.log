@@ -1,0 +1,20 @@
+Executing C:\Program Files\Java\jdk-24\bin\java -Dcodescan.httpclient.version= -jar c:\Users\magmo\.vscode\extensions\codescansf.codescan-vscode-2.1.1\server\sonarlint-ls.jar -stdio
+[Warn  - 22:41:07.687] Embedded plugin not found: C
+[Warn  - 22:41:07.712] Embedded plugin not found: HTML
+[Warn  - 22:41:07.712] Embedded plugin not found: JavaScript
+[Warn  - 22:41:07.712] Embedded plugin not found: XML
+[Warn  - 22:41:07.712] Embedded plugin not found: Secrets
+[Warn  - 22:41:07.712] Embedded plugin not found: Go
+[Warn  - 22:41:07.712] Embedded plugin not found: CloudFormation
+[Warn  - 22:41:07.996] Embedded plugin not found: C
+[Warn  - 22:41:07.996] Embedded plugin not found: HTML
+[Warn  - 22:41:07.997] Embedded plugin not found: JavaScript
+[Warn  - 22:41:07.998] Embedded plugin not found: XML
+[Warn  - 22:41:07.998] Embedded plugin not found: Secrets
+[Warn  - 22:41:07.998] Embedded plugin not found: Go
+[Warn  - 22:41:07.999] Embedded plugin not found: CloudFormation
+[Error - 22:41:08.163] No CodeScan connections defined for your binding with id 'newtestorg'. Please update your settings.
+[Info  - 22:41:15.107] Started embedded server on port 64123
+[Error - 22:41:15.234] No CodeScan connections defined for your binding with id 'newtestorg'. Please update your settings.
+[Error - 22:41:15.236] The specified connection id 'newtestorg' doesn't exist.
+[Error - 22:41:15.237] Invalid binding for 'c:\Users\magmo\Desktop\CodeScan2\temp-workspace'

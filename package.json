@@ -1,0 +1,20 @@
+{
+  "name": "codescan2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test2": "vscode-test",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "@types/vscode": "^1.74.0",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

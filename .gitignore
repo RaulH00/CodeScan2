@@ -3,3 +3,10 @@
 src/.sfdx/
 src/.scannerwork/
 src/pages/.scannerwork/
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/

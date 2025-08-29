@@ -1,0 +1,378 @@
+2025-08-29 09:28:32.513 [trace] PolicyConfiguration#initialize
+2025-08-29 09:28:32.514 [trace] PolicyConfiguration#updatePolicyDefinitions ["update.mode","update.channel","update.enableWindowsBackgroundUpdates","update.showReleaseNotes","http.useLocalProxyConfiguration","http.electronFetch","http.proxy","http.proxyStrictSSL","http.proxyKerberosServicePrincipal","http.noProxy","http.proxyAuthorization","http.proxySupport","http.systemCertificates","http.experimental.systemCertificatesV2","http.fetchAdditionalSupport","telemetry.telemetryLevel","telemetry.feedback.enabled","telemetry.enableTelemetry","extensions.allowed"]
+2025-08-29 09:28:32.514 [trace] NativePolicyService#_updatePolicyDefinitions - Found 4 policy definitions
+2025-08-29 09:28:32.514 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:28:32.514 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (error: Error: ENOENT: no such file or directory, stat 'c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json')
+2025-08-29 09:28:32.514 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (correlationId: undefined)
+2025-08-29 09:28:32.514 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User'
+2025-08-29 09:28:32.514 [trace] NativePolicyService#_onDidPolicyChange - Updated policy values: {}
+2025-08-29 09:28:32.514 [trace] PolicyConfiguration#update ["update.mode","telemetry.telemetryLevel","telemetry.feedback.enabled","extensions.allowed"]
+2025-08-29 09:28:32.514 [trace] PolicyConfiguration#updatePolicyDefinitions []
+2025-08-29 09:28:32.514 [trace] PolicyConfiguration#update []
+2025-08-29 09:28:32.514 [debug] Starting VS Code
+2025-08-29 09:28:32.514 [debug] from: e:\Users\magmo\AppData\Local\Programs\Microsoft VS Code\resources\app
+2025-08-29 09:28:32.514 [debug] args: {"_":[],"diff":false,"merge":false,"add":false,"remove":false,"goto":false,"new-window":true,"reuse-window":false,"wait":false,"user-data-dir":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1","help":false,"list-extensions":false,"show-versions":false,"pre-release":false,"update-extensions":false,"version":false,"verbose":true,"status":false,"prof-startup":false,"no-cached-data":false,"prof-v8-extensions":false,"disable-extensions":false,"disable-lcd-text":false,"disable-gpu":true,"disable-chromium-sandbox":false,"sandbox":false,"telemetry":false,"debugRenderer":false,"enable-smoke-test-driver":false,"logExtensionHostCommunication":false,"skip-release-notes":false,"skip-welcome":false,"disable-telemetry":false,"disable-updates":false,"transient":false,"use-inmemory-secretstorage":false,"disable-workspace-trust":true,"disable-crash-reporter":true,"skip-add-to-recently-opened":false,"open-url":true,"file-write":false,"file-chmod":false,"force":false,"do-not-sync":false,"do-not-include-pack-dependencies":false,"trace":false,"trace-memory-infra":false,"preserve-env":false,"force-user-env":false,"force-disable-user-env":false,"open-devtools":false,"disable-gpu-sandbox":false,"__enable-file-policy":false,"enable-coi":false,"enable-rdp-display-tracking":false,"disable-layout-restore":false,"disable-experiments":false,"no-proxy-server":false,"no-sandbox":false,"inspect":"0","nolazy":false,"force-renderer-accessibility":false,"ignore-certificate-errors":false,"allow-insecure-localhost":false,"disable-dev-shm-usage":true,"profile-temp":false,"_urls":["C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"],"logsPath":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1\\logs\\20250829T092831"}
+2025-08-29 09:28:32.514 [trace] Resolving machine identifier...
+2025-08-29 09:28:32.515 [trace] Resolved machine identifier: 3f014fbfd8b1ef2973a6e4bb1fa2e9a2e88f6956be351ccfba54d0b1ab4d0132
+2025-08-29 09:28:32.515 [trace] Main->SharedProcess#connect
+2025-08-29 09:28:32.515 [trace] PolicyConfiguration#updatePolicyDefinitions ["terminal.integrated.automationProfile.linux","terminal.integrated.automationProfile.osx","terminal.integrated.automationProfile.windows","terminal.integrated.profiles.windows","terminal.integrated.profiles.osx","terminal.integrated.profiles.linux","terminal.integrated.useWslProfiles","terminal.integrated.inheritEnv","terminal.integrated.persistentSessionScrollback","terminal.integrated.showLinkHover","terminal.integrated.ignoreProcessNames"]
+2025-08-29 09:28:32.515 [trace] PolicyConfiguration#updatePolicyDefinitions ["terminal.integrated.defaultProfile.linux","terminal.integrated.defaultProfile.osx","terminal.integrated.defaultProfile.windows"]
+2025-08-29 09:28:32.515 [trace] PolicyConfiguration#update []
+2025-08-29 09:28:32.515 [trace] PolicyConfiguration#update []
+2025-08-29 09:28:32.515 [trace] StorageMainService: creating application storage
+2025-08-29 09:28:32.515 [trace] app#resolveInitialProtocolUrls() protocol urls from command line: ["C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"]
+2025-08-29 09:28:32.515 [trace] app#resolveInitialProtocolUrls() protocol url will be passed to active window for handling: C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:32.515 [trace] ElectronURLListener initialUrisToHandle: ["C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"]
+2025-08-29 09:28:32.515 [trace] ElectronURLListener: waiting for window to be ready to handle URLs...
+2025-08-29 09:28:32.515 [trace] lifecycle (main): phase changed (value: 2)
+2025-08-29 09:28:32.515 [trace] windowsManager#open
+2025-08-29 09:28:32.515 [trace] windowsManager#open pathsToOpen [{}]
+2025-08-29 09:28:32.515 [trace] windowsManager#doOpenEmpty {"restore":false,"forceNewWindow":true}
+2025-08-29 09:28:32.515 [trace] IPC Object URL: Registered new channel vscode:3e559691-7023-4e7a-b8fc-fc8bce0a734c.
+2025-08-29 09:28:32.515 [trace] window#validateWindowState: validating window state on 1 display(s) {"mode":0,"x":1033,"y":50,"width":825,"height":800}
+2025-08-29 09:28:32.515 [trace] window#validateWindowState: single monitor working area {"x":0,"y":0,"width":1920,"height":1040}
+2025-08-29 09:28:32.515 [trace] window#ctor: using window state {"mode":0,"x":1033,"y":50,"width":825,"height":800}
+2025-08-29 09:28:32.515 [trace] window#load: attempt to load window (id: 1)
+2025-08-29 09:28:32.515 [trace] windowsManager#open used window count 1 (workspacesToOpen: 0, foldersToOpen: 0, emptyToRestore: 0, maybeOpenEmptyWindow: true)
+2025-08-29 09:28:32.515 [trace] lifecycle (main): phase changed (value: 3)
+2025-08-29 09:28:32.515 [trace] resolveShellEnv(): skipped (Windows)
+2025-08-29 09:28:32.515 [error] Error: Error mutex already exists
+    at Ou.S (file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:125:18504)
+2025-08-29 09:28:32.515 [info] update#setState idle
+2025-08-29 09:28:32.607 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:32.608 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:32.611 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:32.612 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:32.625 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:32.625 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:32.656 [trace] resolveShellEnv(): skipped (Windows)
+2025-08-29 09:28:32.672 [trace] resolveShellEnv(): skipped (Windows)
+2025-08-29 09:28:32.684 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:32.686 [debug] User data changed
+2025-08-29 09:28:32.817 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:28:32.817 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-08-29 09:28:32.837 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:32.837 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:32.838 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:32.839 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:32.913 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:32.914 [debug] User data changed
+2025-08-29 09:28:33.421 [trace] StorageMainService: creating workspace storage (1756481312958)
+2025-08-29 09:28:33.444 [trace] NativePolicyService#_updatePolicyDefinitions - Found 9 policy definitions
+2025-08-29 09:28:33.447 [trace] NativePolicyService#_onDidPolicyChange - Updated policy values: {}
+2025-08-29 09:28:33.448 [trace] PolicyConfiguration#onDidChangePolicies []
+2025-08-29 09:28:33.448 [trace] PolicyConfiguration#update []
+2025-08-29 09:28:33.453 [trace] NativePolicyService#_updatePolicyDefinitions - Found 11 policy definitions
+2025-08-29 09:28:33.456 [trace] NativePolicyService#_onDidPolicyChange - Updated policy values: {}
+2025-08-29 09:28:33.456 [trace] PolicyConfiguration#onDidChangePolicies []
+2025-08-29 09:28:33.456 [trace] PolicyConfiguration#update []
+2025-08-29 09:28:33.854 [trace] window#load: window reported ready (id: 1)
+2025-08-29 09:28:33.855 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:33.856 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:33.856 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:33.857 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:33.866 [trace] [SharedProcess] onWindowConnection for: vscode:createSharedProcessChannelConnectionResult
+2025-08-29 09:28:33.869 [trace] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2025-08-29 09:28:33.871 [trace] [UtilityProcess type: shared-process, pid: <none>]: payload sent via postMessage()
+2025-08-29 09:28:33.872 [trace] [UtilityProcessWorker]: createWorker(window: 1, moduleId: vs/platform/files/node/watcher/watcherMain)
+2025-08-29 09:28:33.874 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2025-08-29 09:28:33.887 [trace] [UtilityProcess type: shared-process, pid: 7404]: successfully created
+2025-08-29 09:28:33.902 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 3772]: successfully created
+2025-08-29 09:28:33.958 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:34.029 [trace] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2025-08-29 09:28:34.047 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 2664]: successfully created
+2025-08-29 09:28:34.133 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:34.133 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:34.135 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:34.135 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:34.209 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:34.209 [debug] User data changed
+2025-08-29 09:28:34.462 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:34.462 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:34.463 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:34.463 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:34.572 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:34.750 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:34.750 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:34.752 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:34.753 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:34.943 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:34.944 [debug] User data changed
+2025-08-29 09:28:34.956 [trace] lifecycle (main): phase changed (value: 4)
+2025-08-29 09:28:35.162 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:35.162 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:35.163 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:35.163 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:35.321 [trace] resolveShellEnv(): skipped (Windows)
+2025-08-29 09:28:35.325 [trace] #1: https://update.code.visualstudio.com/api/update/win32-x64-user/stable/6f17636121051a53c88d3e605c491d22af2ba755 - begin undefined {}
+2025-08-29 09:28:35.332 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:35.345 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:35.346 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:35.349 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:35.350 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:35.388 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:35.388 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:35.421 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:35.422 [debug] User data changed
+2025-08-29 09:28:35.445 [debug] Terminal profile not validated bash (MSYS2) [{"path":"C:\\msys64\\usr\\bin\\bash.exe","isUnsafe":true}]
+2025-08-29 09:28:35.446 [debug] Terminal profile not validated Cygwin [{"path":"C:\\cygwin64\\bin\\bash.exe","isUnsafe":true},{"path":"C:\\cygwin\\bin\\bash.exe","isUnsafe":true}]
+2025-08-29 09:28:35.465 [trace] Setting background throttling for window 1 to 'true'
+2025-08-29 09:28:35.507 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:35.507 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:35.509 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:35.509 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:35.589 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:35.589 [debug] User data changed
+2025-08-29 09:28:35.841 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:35.841 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:35.842 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:35.842 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:35.931 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:36.320 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:36.320 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:36.322 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:36.322 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:36.333 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:36.333 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:36.577 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:36.578 [debug] User data changed
+2025-08-29 09:28:36.578 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:36.578 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:36.579 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:36.579 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:36.586 [trace] [SharedProcess] IPC ready
+2025-08-29 09:28:36.587 [trace] Main->SharedProcess#connect: connection established
+2025-08-29 09:28:36.590 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:36.624 [trace] WSL is not installed, so could not detect WSL profiles
+2025-08-29 09:28:36.639 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:28:36.640 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (error: Error: ENOENT: no such file or directory, stat 'c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json')
+2025-08-29 09:28:36.640 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (correlationId: undefined)
+2025-08-29 09:28:36.645 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User'
+2025-08-29 09:28:36.654 [trace] #1: https://update.code.visualstudio.com/api/update/win32-x64-user/stable/6f17636121051a53c88d3e605c491d22af2ba755 - end undefined 204 {"access-control-allow-origin":"*","date":"Fri, 29 Aug 2025 15:28:36 GMT","request-context":"appId=cid-v1:8109e553-6232-492a-afca-b78cea9b431c","strict-transport-security":"max-age=31536000; includeSubDomains","x-azure-ref":"20250829T152836Z-16b7f9477b5rbm4rhC1BN1cde00000000byg000000008fbe","x-cache":"CONFIG_NOCACHE","x-content-type-options":"nosniff","x-powered-by":"Express","x-source-commit":"00d4b9c6abefee4479acb2a1194498b57f758244"}
+2025-08-29 09:28:36.760 [trace] [SharedProcess] Overall ready
+2025-08-29 09:28:36.835 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\magmo\.vscode\extensions (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\magmo\.vscode\extensions\extensions.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:28:36.836 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:28:36.836 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-08-29 09:28:36.840 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\magmo\.vscode\extensions'
+2025-08-29 09:28:36.841 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\magmo\.vscode\extensions\extensions.json'
+2025-08-29 09:28:37.078 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:28:37.080 [trace] [File Watcher (node.js)] ignoring a path for watching who's stat info failed to resolve: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\mcp.json (error: Error: ENOENT: no such file or directory, stat 'c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\mcp.json')
+2025-08-29 09:28:37.080 [trace] [File Watcher (node.js)] starting fs.watchFile() on c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\mcp.json (correlationId: undefined)
+2025-08-29 09:28:37.099 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:37.099 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:37.100 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:37.100 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:37.105 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:37.609 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:37.610 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:37.610 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:37.611 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:37.677 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:37.892 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:28:37.892 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\mcp.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-08-29 09:28:38.180 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:38.180 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:38.180 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:38.181 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:38.184 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:38.687 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:38.687 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:38.688 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:38.688 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:38.695 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:39.209 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:39.210 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:39.210 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:39.211 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:39.247 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:39.749 [trace] ElectronURLListener#flush(): flushing URLs
+2025-08-29 09:28:39.749 [trace] app#handleProtocolUrl(): C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:39.749 [trace] app#handleProtocolUrl(): not handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace {"originalUrl":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-workspace"}
+2025-08-29 09:28:39.750 [trace] URLHandlerRouter#routeCall() with URI argument C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:39.752 [trace] ElectronURLListener#flush(): URL was not yet handled C:\Users\magmo\Desktop\CodeScan2\temp-workspace
+2025-08-29 09:28:40.050 [trace] [EncryptionMainService] Checking if encryption is available...
+2025-08-29 09:28:40.050 [trace] [EncryptionMainService] Encryption is available:  true
+2025-08-29 09:28:40.253 [trace] ElectronURLListener#flush(): giving up after 10 retries
+2025-08-29 09:28:43.430 [debug] ProxyResolver#loadSystemCertificates count 70
+2025-08-29 09:28:43.437 [debug] ProxyResolver#loadSystemCertificates count filtered 55
+2025-08-29 09:28:58.369 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:58.369 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.371 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:58.371 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.373 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:58.373 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.375 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:58.375 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.457 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.458 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.458 [debug] User data changed
+2025-08-29 09:28:58.517 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:58.518 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.520 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:28:58.520 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.601 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:28:58.601 [debug] User data changed
+2025-08-29 09:28:58.602 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:02.513 [trace] update#checkForUpdates, state =  idle
+2025-08-29 09:29:02.514 [info] update#setState checking for updates
+2025-08-29 09:29:02.515 [trace] resolveShellEnv(): skipped (Windows)
+2025-08-29 09:29:02.516 [trace] #2: https://update.code.visualstudio.com/api/update/win32-x64-user/stable/6f17636121051a53c88d3e605c491d22af2ba755?bg=true - begin undefined {}
+2025-08-29 09:29:02.674 [trace] #2: https://update.code.visualstudio.com/api/update/win32-x64-user/stable/6f17636121051a53c88d3e605c491d22af2ba755?bg=true - end undefined 204 {"access-control-allow-origin":"*","date":"Fri, 29 Aug 2025 15:29:02 GMT","request-context":"appId=cid-v1:8109e553-6232-492a-afca-b78cea9b431c","strict-transport-security":"max-age=31536000; includeSubDomains","x-azure-ref":"20250829T152902Z-16b7f9477b5rbm4rhC1BN1cde00000000byg000000008hhn","x-cache":"CONFIG_NOCACHE","x-content-type-options":"nosniff","x-powered-by":"Express","x-source-commit":"00d4b9c6abefee4479acb2a1194498b57f758244"}
+2025-08-29 09:29:02.675 [info] update#setState idle
+2025-08-29 09:29:06.768 [trace] [File Watcher (node.js)] [raw] ["change"] workspaceStorage
+2025-08-29 09:29:06.768 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\workspaceStorage
+2025-08-29 09:29:06.770 [trace] [File Watcher (node.js)] [raw] ["change"] workspaceStorage
+2025-08-29 09:29:06.770 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\workspaceStorage
+2025-08-29 09:29:06.857 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\workspaceStorage
+2025-08-29 09:29:06.858 [debug] User data changed
+2025-08-29 09:29:06.859 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\workspaceStorage
+2025-08-29 09:29:24.163 [trace] [EncryptionMainService] Encrypting value...
+2025-08-29 09:29:24.164 [trace] [EncryptionMainService] Encrypted value.
+2025-08-29 09:29:24.179 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json.vsctmp
+2025-08-29 09:29:24.181 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json.vsctmp
+2025-08-29 09:29:24.201 [trace] [File Watcher (node.js)] [raw] ["change"] settings.json.vsctmp
+2025-08-29 09:29:24.202 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.203 [trace] [File Watcher (node.js)] [raw] ["change"] settings.json.vsctmp
+2025-08-29 09:29:24.203 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.218 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json.vsctmp
+2025-08-29 09:29:24.219 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2025-08-29 09:29:24.220 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json.vsctmp
+2025-08-29 09:29:24.221 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2025-08-29 09:29:24.278 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.279 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.281 [debug] User data changed
+2025-08-29 09:29:24.384 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.385 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:24.385 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.386 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:24.389 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json.vsctmp
+2025-08-29 09:29:24.390 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json.vsctmp
+2025-08-29 09:29:24.407 [trace] [File Watcher (node.js)] [raw] ["change"] settings.json.vsctmp
+2025-08-29 09:29:24.408 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.409 [trace] [File Watcher (node.js)] [raw] ["change"] settings.json.vsctmp
+2025-08-29 09:29:24.409 [trace] [File Watcher (node.js)] [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.420 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2025-08-29 09:29:24.421 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2025-08-29 09:29:24.422 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json.vsctmp
+2025-08-29 09:29:24.424 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2025-08-29 09:29:24.424 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json.vsctmp
+2025-08-29 09:29:24.425 [trace] [File Watcher (node.js)] [raw] ["rename"] settings.json
+2025-08-29 09:29:24.498 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.499 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:24.500 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.500 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:24.500 [debug] User data changed
+2025-08-29 09:29:24.539 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.540 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:24.542 [trace] [File Watcher (node.js)] [DELETED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.542 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:24.626 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.627 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:24.627 [trace] [File Watcher (node.js)]  >> normalized [DELETED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json.vsctmp
+2025-08-29 09:29:24.627 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:24.628 [debug] User data changed
+2025-08-29 09:29:25.112 [trace] [EncryptionMainService] Decrypting value...
+2025-08-29 09:29:25.112 [trace] [EncryptionMainService] Decrypted value.
+2025-08-29 09:29:25.544 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:25.544 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:25.546 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:25.546 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:25.551 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:25.551 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:25.552 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:25.553 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:25.641 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:25.642 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:25.642 [debug] User data changed
+2025-08-29 09:29:27.171 [trace] [File Watcher (node.js)] detected c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json exists again, resuming watcher (correlationId: undefined)
+2025-08-29 09:29:27.171 [debug] User data changed
+2025-08-29 09:29:27.172 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:27.172 [trace] [File Watcher (node.js)] stopping fs.watchFile() on c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (correlationId: undefined)
+2025-08-29 09:29:27.173 [trace] [File Watcher (node.js)] detected c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json exists again, resuming watcher (correlationId: undefined)
+2025-08-29 09:29:27.173 [trace] [File Watcher (node.js)]  >> normalized [ADDED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json
+2025-08-29 09:29:27.174 [trace] [File Watcher (node.js)] stopping fs.watchFile() on c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (correlationId: undefined)
+2025-08-29 09:29:27.174 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:29:27.176 [trace] [File Watcher (node.js)] Request to start watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:29:27.179 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json'
+2025-08-29 09:29:27.181 [trace] [File Watcher (node.js)] Started watching: 'c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json'
+2025-08-29 09:29:33.660 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:33.660 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:33.661 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:33.662 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:33.663 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:33.664 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:33.665 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:33.665 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:33.751 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:33.752 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:33.752 [debug] User data changed
+2025-08-29 09:29:53.039 [debug] Terminal profile not validated bash (MSYS2) [{"path":"C:\\msys64\\usr\\bin\\bash.exe","isUnsafe":true}]
+2025-08-29 09:29:53.040 [debug] Terminal profile not validated Cygwin [{"path":"C:\\cygwin64\\bin\\bash.exe","isUnsafe":true},{"path":"C:\\cygwin\\bin\\bash.exe","isUnsafe":true}]
+2025-08-29 09:29:53.309 [trace] [UtilityProcess type: ptyHost, pid: <none>]: creating new...
+2025-08-29 09:29:53.311 [trace] PtyHostService#_startPtyHost 
+    at Au.U (file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:93:3012)
+    at Au.h (file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:93:1515)
+    at file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:93:2519
+    at Yo.value (file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:28:4695)
+    at D.C (file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:30:2373)
+    at D.fire (file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:30:2591)
+    at Su.r (file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:85:118554)
+    at file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:85:117275
+    at IpcMainImpl.i (file:///e:/Users/magmo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/main.js:33:21024)
+    at IpcMainImpl.emit (node:events:518:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:518:28)
+2025-08-29 09:29:53.330 [trace] [UtilityProcess type: ptyHost, pid: 14260]: successfully created
+2025-08-29 09:29:53.848 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:53.849 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:53.850 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:53.850 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:53.852 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:53.852 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:53.853 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:29:53.853 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:53.987 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:53.988 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:29:53.988 [debug] User data changed
+2025-08-29 09:30:13.329 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:30:13.329 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:30:13.331 [trace] [File Watcher (node.js)] [raw] ["change"] globalStorage
+2025-08-29 09:30:13.331 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:30:13.334 [trace] [File Watcher (node.js)] [raw] ["change"] History
+2025-08-29 09:30:13.335 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\History
+2025-08-29 09:30:13.336 [trace] [File Watcher (node.js)] [raw] ["change"] History
+2025-08-29 09:30:13.336 [trace] [File Watcher (node.js)] [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\History
+2025-08-29 09:30:13.412 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:30:13.413 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\History
+2025-08-29 09:30:13.413 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\globalStorage
+2025-08-29 09:30:13.414 [trace] [File Watcher (node.js)]  >> normalized [CHANGED] c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\History
+2025-08-29 09:30:13.414 [debug] User data changed
+2025-08-29 09:32:14.656 [trace] Lifecycle#app.on(before-quit)
+2025-08-29 09:32:14.656 [trace] Lifecycle#onBeforeShutdown.fire()
+2025-08-29 09:32:14.657 [trace] [WindowsStateHandler] onBeforeShutdown {"lastActiveWindow":{"backupPath":"C:\\Users\\magmo\\Desktop\\CodeScan2\\temp-vscode-data1\\Backups\\1756481312958","uiState":{"mode":0,"x":1033,"y":50,"width":825,"height":800}},"openedWindows":[]}
+2025-08-29 09:32:14.658 [trace] Lifecycle#window.on('close') - window ID 1
+2025-08-29 09:32:14.658 [trace] Lifecycle#unload() - window ID 1
+2025-08-29 09:32:14.827 [trace] Lifecycle#onBeforeCloseWindow.fire() - window ID 1
+2025-08-29 09:32:14.867 [trace] IPC Object URL: Removed channel vscode:3e559691-7023-4e7a-b8fc-fc8bce0a734c.
+2025-08-29 09:32:14.872 [trace] Lifecycle#window.on('closed') - window ID 1
+2025-08-29 09:32:14.872 [trace] Lifecycle#onWillShutdown.fire()
+2025-08-29 09:32:14.874 [trace] Lifecycle#onWillShutdown - begin 'instanceLockfile'
+2025-08-29 09:32:14.876 [trace] storageMainService#onWillShutdown()
+2025-08-29 09:32:14.876 [trace] Lifecycle#onWillShutdown - begin 'applicationStorage'
+2025-08-29 09:32:14.876 [trace] Lifecycle#onWillShutdown - begin 'workspaceStorage'
+2025-08-29 09:32:14.877 [trace] [UtilityProcess id: 1, type: extensionHost, pid: 2664]: waiting to exit...
+2025-08-29 09:32:14.877 [trace] Lifecycle#onWillShutdown - begin 'extHostStarter'
+2025-08-29 09:32:14.878 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 3772]: attempting to kill the process...
+2025-08-29 09:32:14.878 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 3772]: successfully killed the process
+2025-08-29 09:32:14.879 [trace] Lifecycle#app.on(window-all-closed)
+2025-08-29 09:32:14.879 [trace] Lifecycle#app.on(will-quit) - begin
+2025-08-29 09:32:14.884 [trace] Lifecycle#onWillShutdown - end 'instanceLockfile'
+2025-08-29 09:32:14.888 [trace] [File Watcher (node.js)] Request to stop watching: c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>),c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>)
+2025-08-29 09:32:14.888 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-08-29 09:32:14.889 [trace] [File Watcher (node.js)] stopping file watcher (c:\Users\magmo\Desktop\CodeScan2\temp-vscode-data1\User\settings.json (excludes: <none>, includes: <all>, filter: <none>, correlationId: <none>))
+2025-08-29 09:32:14.928 [trace] [UtilityProcess id: 1, type: fileWatcher, pid: 3772]: received exit event with code 0
+2025-08-29 09:32:14.928 [trace] [UtilityProcessWorker]: terminated normally with code 0, signal: unknown
+2025-08-29 09:32:15.010 [trace] StorageMainService: closed application storage
+2025-08-29 09:32:15.010 [trace] Lifecycle#onWillShutdown - end 'applicationStorage'
+2025-08-29 09:32:15.065 [trace] StorageMainService: closed workspace storage (1756481312958)
+2025-08-29 09:32:15.065 [trace] Lifecycle#onWillShutdown - end 'workspaceStorage'

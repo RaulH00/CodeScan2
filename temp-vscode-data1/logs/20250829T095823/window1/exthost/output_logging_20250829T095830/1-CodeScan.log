@@ -1,0 +1,16 @@
+Executing C:\Program Files\Java\jdk-24\bin\java -Dcodescan.httpclient.version= -jar c:\Users\magmo\.vscode\extensions\codescansf.codescan-vscode-2.1.1\server\sonarlint-ls.jar -stdio
+[Warn  - 09:58:33.348] Embedded plugin not found: C
+[Warn  - 09:58:33.382] Embedded plugin not found: HTML
+[Warn  - 09:58:33.382] Embedded plugin not found: JavaScript
+[Warn  - 09:58:33.385] Embedded plugin not found: XML
+[Warn  - 09:58:33.386] Embedded plugin not found: Secrets
+[Warn  - 09:58:33.387] Embedded plugin not found: Go
+[Warn  - 09:58:33.387] Embedded plugin not found: CloudFormation
+[Warn  - 09:58:33.732] Embedded plugin not found: C
+[Warn  - 09:58:33.732] Embedded plugin not found: HTML
+[Warn  - 09:58:33.734] Embedded plugin not found: JavaScript
+[Warn  - 09:58:33.734] Embedded plugin not found: XML
+[Warn  - 09:58:33.735] Embedded plugin not found: Secrets
+[Warn  - 09:58:33.735] Embedded plugin not found: Go
+[Warn  - 09:58:33.735] Embedded plugin not found: CloudFormation
+[Info  - 09:58:40.152] Started embedded server on port 64123
